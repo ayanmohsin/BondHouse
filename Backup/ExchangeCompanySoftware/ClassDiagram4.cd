@@ -1,0 +1,331 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ExchangeCompanySoftware.Custom_Controls.cstCheckBox" Collapsed="true">
+    <Position X="12.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAACAAAAAAAACAAAACAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Custom Controls\cstCheckBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExchangeCompanySoftware.Custom_Controls.cstControl" Collapsed="true">
+    <Position X="15.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAACAAQAAAAACAAAACAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Custom Controls\cstControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExchangeCompanySoftware.Custom_Controls.cstDateTimePicker" Collapsed="true">
+    <Position X="17.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAACAAAAAAAACAAAACAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Custom Controls\cstDateTimePicker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExchangeCompanySoftware.Custom_Controls.cstOptionalTextBox" Collapsed="true">
+    <Position X="21" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAACAAAAAAgACAAAACAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Custom Controls\cstOptionalTextBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExchangeCompanySoftware.cstComboBox" Collapsed="true">
+    <Position X="14" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAACAAAAAAAACAAAACAAAAAAQAAAAgAAAAAAA=</HashCode>
+      <FileName>Custom Controls\cstComboBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExchangeCompanySoftware.cstNumericupDown" Collapsed="true">
+    <Position X="19.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAACAAAAAAAACAAAACAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Custom Controls\cstNumericupDown.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExchangeCompanySoftware.cstTextBox" Collapsed="true">
+    <Position X="22.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACQAAAAACAAAAAAAACAAAACAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Custom Controls\cstTextBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExchangeCompanySoftware.DataSet1" Collapsed="true">
+    <Position X="12.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAwAAIAJABAAAQAEAAAgCQBgIAAAAAAEABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExchangeCompanySoftware.frmTradingVoucher" Collapsed="true">
+    <Position X="5.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>dQgSAwEgACwAg5EAAIboiMoGAEWAgQE0AAQEQwAqQA4=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ExchangeCompanySoftware.frmListSearch" Collapsed="true">
+    <Position X="15.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAQAACgEAAAAAACABAAiKAgAAAAAAAIAAAABAAA=</HashCode>
+      <FileName>frmListSearch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExchangeCompanySoftware.frmLogin" Collapsed="true">
+    <Position X="17.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQYAAACgAEjEAAACIAAACIQBBABAEACgAAFAgBAQ=</HashCode>
+      <FileName>frmLogin.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExchangeCompanySoftware.frmReports" Collapsed="true">
+    <Position X="19.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAQArAAAwAAAMGgAAACBQQQAAgECIQABAAAAAw=</HashCode>
+      <FileName>frmReports.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExchangeCompanySoftware.frmReportViewer" Collapsed="true">
+    <Position X="21" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAICAAAAAAAADAAAACAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>frmReportViewer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExchangeCompanySoftware.frmTransJV" Collapsed="true">
+    <Position X="9.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAgDAwEgACAAA5EAgIPgiIIGAEUAgAQUAAAFQwAoAAY=</HashCode>
+      <FileName>frmTransJV.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ExchangeCompanySoftware.frmTransPaymentRec" Collapsed="true">
+    <Position X="0.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgIAwEgACSAA5EAAILAiIAGAEAAgAACAAAAQwAgAAw=</HashCode>
+      <FileName>frmTransPaymentRec.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ExchangeCompanySoftware.General" Collapsed="true">
+    <Position X="12.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEA0QABAgKAEgBAEAQAIIAEAABBABABAMAAAAAIAS4=</HashCode>
+      <FileName>General.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExchangeCompanySoftware.MainForm" Collapsed="true">
+    <Position X="14" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQhmAgSAAAgQACAKAEUESAAAgAAgABAwCBAApQAE=</HashCode>
+      <FileName>MainForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExchangeCompanySoftware.Program" Collapsed="true">
+    <Position X="15.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExchangeCompanySoftware.Resource1" Collapsed="true">
+    <Position X="19.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAABEAAAAQAAAAAAAAAQBAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExchangeCompanySoftware.BaseForm" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAwAAACAAAAgIgADAAAACAAAAAIAAAAAAAAAAAJA=</HashCode>
+      <FileName>Setup\BaseForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExchangeCompanySoftware.frmAccountSetup" Collapsed="true">
+    <Position X="3" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QIgAAwEgBGAIg5MAAILAjICGAEAAgAQAEAQAQwsgEAw=</HashCode>
+      <FileName>Setup\frmAccountSetup.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ExchangeCompanySoftware.frmSetupItem" Collapsed="true">
+    <Position X="7.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAA0EgACEAE5MQQILEiIAGAEAAgAAAAAAASwAgAAA=</HashCode>
+      <FileName>Setup\frmSetupItem.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ExchangeCompanySoftware.frmTransProcess" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAggAgCCAAA5AIAALAiIAGAEAAgAAAAABgAQAAAAA=</HashCode>
+      <FileName>Setup\frmTransProcess.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ExchangeCompanySoftware.DataSet1TableAdapters.AllQueryTableAdapter" Collapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EASAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExchangeCompanySoftware.DataSet1TableAdapters.TableAdapterManager" Collapsed="true">
+    <Position X="12.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAACAAAABABAFBAAAAOAAgAAACgAAAAAQAAAAABAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExchangeCompanySoftware.Properties.Resources" Collapsed="true">
+    <Position X="21" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAQAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExchangeCompanySoftware.Properties.Settings" Collapsed="true">
+    <Position X="22.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExchangeCompanySoftware.Reports.Reportxsd" Collapsed="true">
+    <Position X="17.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAQowAAgQLADAAAWAAAAggCQBwAAEAAAlEAhJA=</HashCode>
+      <FileName>Reports\Reportxsd.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExchangeCompanySoftware.Reports.rptDailyTradeTransSta" Collapsed="true">
+    <Position X="22.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAgAAAAJAAAQAAQAAAAIAAAAQgIQAAAACBABAAAABAA=</HashCode>
+      <FileName>Reports\rptDailyTradeTransSta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExchangeCompanySoftware.Reports.CachedrptDailyTradeTransSta" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reports\rptDailyTradeTransSta.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ExchangeCompanySoftware.Reports.rptFCStatement" Collapsed="true">
+    <Position X="12.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAgAAABJAAAQAAQAAAAIAAAAQgIQAAAADBABAAAABAA=</HashCode>
+      <FileName>Reports\rptFCStatement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExchangeCompanySoftware.Reports.CachedrptFCStatement" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reports\rptFCStatement.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ExchangeCompanySoftware.Reports.rptMonSum" Collapsed="true">
+    <Position X="14" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAgAAAAJAAAQAAQAAAAIAAAAQgIQAAAACBABAAAABAA=</HashCode>
+      <FileName>Reports\rptMonSum.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExchangeCompanySoftware.Reports.CachedrptMonSum" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="17.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reports\rptMonSum.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ExchangeCompanySoftware.Reports.rptSetupAccounts" Collapsed="true">
+    <Position X="15.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAgAAAAJAAAQAAQAAAAIAAAAQAIQAAAACBABAAAABAA=</HashCode>
+      <FileName>Reports\rptSetupAccounts.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExchangeCompanySoftware.Reports.CachedrptSetupAccounts" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reports\rptSetupAccounts.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ExchangeCompanySoftware.Reports.rptStockPosition" Collapsed="true">
+    <Position X="17.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAgAAAAJAAAQAAQAAAAIAAAAQgIQAAAACBABAAAABAA=</HashCode>
+      <FileName>Reports\rptStockPosition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExchangeCompanySoftware.Reports.CachedrptStockPosition" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reports\rptStockPosition.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ExchangeCompanySoftware.Reports.rptTradeTransStaCu" Collapsed="true">
+    <Position X="19.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAgAAAAJAAAQAAQAAAAIAAAAQgIQAAAACBABAAAABAA=</HashCode>
+      <FileName>Reports\rptTradeTransStaCu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExchangeCompanySoftware.Reports.CachedrptTradeTransStaCu" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAFAEAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Reports\rptTradeTransStaCu.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ExchangeCompanySoftware.Reports.ReportxsdTableAdapters.DataTable1TableAdapter" Collapsed="true">
+    <Position X="14" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EACAAGAAEAAAAAcAIAAAAAAAACAICAAAAAAAAAAABBA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExchangeCompanySoftware.Reports.ReportxsdTableAdapters.TableAdapterManager" Collapsed="true">
+    <Position X="14" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAACAAAABABAEBAAAAMAAgAAACgAAAAAQAAAAABAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExchangeCompanySoftware.GetData.ServiceSoapClient" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAgAgAACAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\GetData\Reference.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Interface Name="ExchangeCompanySoftware.IToolBar" Collapsed="true">
+    <Position X="12.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAgAAAAAYAAAAJAiIAEAEAAgAAAAAAAAQAAAAA=</HashCode>
+      <FileName>IToolBar.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ExchangeCompanySoftware.GetData.ServiceSoap" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAgAgAACAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\GetData\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="ExchangeCompanySoftware.GetData.ServiceSoapChannel" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Service References\GetData\Reference.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="Detail.Name" xml:space="preserve">
+    <value>Detail</value>
+  </metadata>
+  <metadata name="PageHeader.Name" xml:space="preserve">
+    <value>PageHeader</value>
+  </metadata>
+  <metadata name="xrLabel52.Name" xml:space="preserve">
+    <value>xrLabel52</value>
+  </metadata>
+  <metadata name="xrLabel51.Name" xml:space="preserve">
+    <value>xrLabel51</value>
+  </metadata>
+  <metadata name="PageFooter.Name" xml:space="preserve">
+    <value>PageFooter</value>
+  </metadata>
+  <metadata name="reportxsd1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <metadata name="reportxsd1.Name" xml:space="preserve">
+    <value>reportxsd1</value>
+  </metadata>
+  <metadata name="BranchName.Name" xml:space="preserve">
+    <value>BranchName</value>
+  </metadata>
+  <metadata name="CompanyName.Name" xml:space="preserve">
+    <value>CompanyName</value>
+  </metadata>
+  <metadata name="Criteria.Name" xml:space="preserve">
+    <value>Criteria</value>
+  </metadata>
+  <metadata name="UserId.Name" xml:space="preserve">
+    <value>UserId</value>
+  </metadata>
+  <metadata name="calculatedField1.Name" xml:space="preserve">
+    <value>calculatedField1</value>
+  </metadata>
+  <metadata name="ReportName.Name" xml:space="preserve">
+    <value>ReportName</value>
+  </metadata>
+  <metadata name="GroupHeader1.Name" xml:space="preserve">
+    <value>GroupHeader1</value>
+  </metadata>
+  <metadata name="xrShape14.Name" xml:space="preserve">
+    <value>xrShape14</value>
+  </metadata>
+  <metadata name="lblClosing.Name" xml:space="preserve">
+    <value>lblClosing</value>
+  </metadata>
+  <metadata name="lblSaleBank.Name" xml:space="preserve">
+    <value>lblSaleBank</value>
+  </metadata>
+  <metadata name="lblSaleTotal.Name" xml:space="preserve">
+    <value>lblSaleTotal</value>
+  </metadata>
+  <metadata name="lblSaleContra.Name" xml:space="preserve">
+    <value>lblSaleContra</value>
+  </metadata>
+  <metadata name="lblSaleExchange.Name" xml:space="preserve">
+    <value>lblSaleExchange</value>
+  </metadata>
+  <metadata name="lblSaleRes.Name" xml:space="preserve">
+    <value>lblSaleRes</value>
+  </metadata>
+  <metadata name="lblSaleNRes.Name" xml:space="preserve">
+    <value>lblSaleNRes</value>
+  </metadata>
+  <metadata name="lblGrandTotal.Name" xml:space="preserve">
+    <value>lblGrandTotal</value>
+  </metadata>
+  <metadata name="lblPTotal.Name" xml:space="preserve">
+    <value>lblPTotal</value>
+  </metadata>
+  <metadata name="lblPNRM.Name" xml:space="preserve">
+    <value>lblPNRM</value>
+  </metadata>
+  <metadata name="lblPRes.Name" xml:space="preserve">
+    <value>lblPRes</value>
+  </metadata>
+  <metadata name="lblOpening.Name" xml:space="preserve">
+    <value>lblOpening</value>
+  </metadata>
+  <metadata name="lblImp.Name" xml:space="preserve">
+    <value>lblImp</value>
+  </metadata>
+  <metadata name="lblPExchange.Name" xml:space="preserve">
+    <value>lblPExchange</value>
+  </metadata>
+  <metadata name="xrLabel50.Name" xml:space="preserve">
+    <value>xrLabel50</value>
+  </metadata>
+  <metadata name="xrShape12.Name" xml:space="preserve">
+    <value>xrShape12</value>
+  </metadata>
+  <metadata name="xrLabel38.Name" xml:space="preserve">
+    <value>xrLabel38</value>
+  </metadata>
+  <metadata name="xrLabel53.Name" xml:space="preserve">
+    <value>xrLabel53</value>
+  </metadata>
+  <metadata name="xrLabel49.Name" xml:space="preserve">
+    <value>xrLabel49</value>
+  </metadata>
+  <metadata name="xrShape13.Name" xml:space="preserve">
+    <value>xrShape13</value>
+  </metadata>
+  <metadata name="xrShape11.Name" xml:space="preserve">
+    <value>xrShape11</value>
+  </metadata>
+  <metadata name="xrLabel47.Name" xml:space="preserve">
+    <value>xrLabel47</value>
+  </metadata>
+  <metadata name="lblCloU.Name" xml:space="preserve">
+    <value>lblCloU</value>
+  </metadata>
+  <metadata name="lblCloT.Name" xml:space="preserve">
+    <value>lblCloT</value>
+  </metadata>
+  <metadata name="lblCloM.Name" xml:space="preserve">
+    <value>lblCloM</value>
+  </metadata>
+  <metadata name="lblSConU.Name" xml:space="preserve">
+    <value>lblSConU</value>
+  </metadata>
+  <metadata name="lblSConT.Name" xml:space="preserve">
+    <value>lblSConT</value>
+  </metadata>
+  <metadata name="lblSConM.Name" xml:space="preserve">
+    <value>lblSConM</value>
+  </metadata>
+  <metadata name="lblSTotM.Name" xml:space="preserve">
+    <value>lblSTotM</value>
+  </metadata>
+  <metadata name="lblSResU.Name" xml:space="preserve">
+    <value>lblSResU</value>
+  </metadata>
+  <metadata name="lblSResM.Name" xml:space="preserve">
+    <value>lblSResM</value>
+  </metadata>
+  <metadata name="lblSNresT.Name" xml:space="preserve">
+    <value>lblSNresT</value>
+  </metadata>
+  <metadata name="lblSNresU.Name" xml:space="preserve">
+    <value>lblSNresU</value>
+  </metadata>
+  <metadata name="lblSNresM.Name" xml:space="preserve">
+    <value>lblSNresM</value>
+  </metadata>
+  <metadata name="lblBNKT.Name" xml:space="preserve">
+    <value>lblBNKT</value>
+  </metadata>
+  <metadata name="lblBNKU.Name" xml:space="preserve">
+    <value>lblBNKU</value>
+  </metadata>
+  <metadata name="lblBNKM.Name" xml:space="preserve">
+    <value>lblBNKM</value>
+  </metadata>
+  <metadata name="lblSEXT.Name" xml:space="preserve">
+    <value>lblSEXT</value>
+  </metadata>
+  <metadata name="lblSEXU.Name" xml:space="preserve">
+    <value>lblSEXU</value>
+  </metadata>
+  <metadata name="lblSEXM.Name" xml:space="preserve">
+    <value>lblSEXM</value>
+  </metadata>
+  <metadata name="lblSTotT.Name" xml:space="preserve">
+    <value>lblSTotT</value>
+  </metadata>
+  <metadata name="lblSTotU.Name" xml:space="preserve">
+    <value>lblSTotU</value>
+  </metadata>
+  <metadata name="lblSResT.Name" xml:space="preserve">
+    <value>lblSResT</value>
+  </metadata>
+  <metadata name="xrLabel48.Name" xml:space="preserve">
+    <value>xrLabel48</value>
+  </metadata>
+  <metadata name="xrLabel46.Name" xml:space="preserve">
+    <value>xrLabel46</value>
+  </metadata>
+  <metadata name="xrLabel45.Name" xml:space="preserve">
+    <value>xrLabel45</value>
+  </metadata>
+  <metadata name="xrLabel44.Name" xml:space="preserve">
+    <value>xrLabel44</value>
+  </metadata>
+  <metadata name="xrLabel43.Name" xml:space="preserve">
+    <value>xrLabel43</value>
+  </metadata>
+  <metadata name="xrLabel42.Name" xml:space="preserve">
+    <value>xrLabel42</value>
+  </metadata>
+  <metadata name="xrLabel41.Name" xml:space="preserve">
+    <value>xrLabel41</value>
+  </metadata>
+  <metadata name="xrLabel40.Name" xml:space="preserve">
+    <value>xrLabel40</value>
+  </metadata>
+  <metadata name="xrLabel39.Name" xml:space="preserve">
+    <value>xrLabel39</value>
+  </metadata>
+  <metadata name="xrLabel37.Name" xml:space="preserve">
+    <value>xrLabel37</value>
+  </metadata>
+  <metadata name="xrLabel36.Name" xml:space="preserve">
+    <value>xrLabel36</value>
+  </metadata>
+  <metadata name="xrLabel35.Name" xml:space="preserve">
+    <value>xrLabel35</value>
+  </metadata>
+  <metadata name="xrLabel34.Name" xml:space="preserve">
+    <value>xrLabel34</value>
+  </metadata>
+  <metadata name="xrLabel33.Name" xml:space="preserve">
+    <value>xrLabel33</value>
+  </metadata>
+  <metadata name="xrLabel32.Name" xml:space="preserve">
+    <value>xrLabel32</value>
+  </metadata>
+  <metadata name="xrLabel31.Name" xml:space="preserve">
+    <value>xrLabel31</value>
+  </metadata>
+  <metadata name="xrLabel30.Name" xml:space="preserve">
+    <value>xrLabel30</value>
+  </metadata>
+  <metadata name="xrLabel29.Name" xml:space="preserve">
+    <value>xrLabel29</value>
+  </metadata>
+  <metadata name="xrLabel28.Name" xml:space="preserve">
+    <value>xrLabel28</value>
+  </metadata>
+  <metadata name="xrLabel27.Name" xml:space="preserve">
+    <value>xrLabel27</value>
+  </metadata>
+  <metadata name="xrLabel26.Name" xml:space="preserve">
+    <value>xrLabel26</value>
+  </metadata>
+  <metadata name="xrLabel23.Name" xml:space="preserve">
+    <value>xrLabel23</value>
+  </metadata>
+  <metadata name="xrLabel16.Name" xml:space="preserve">
+    <value>xrLabel16</value>
+  </metadata>
+  <metadata name="xrLabel13.Name" xml:space="preserve">
+    <value>xrLabel13</value>
+  </metadata>
+  <metadata name="xrLabel12.Name" xml:space="preserve">
+    <value>xrLabel12</value>
+  </metadata>
+  <metadata name="xrShape3.Name" xml:space="preserve">
+    <value>xrShape3</value>
+  </metadata>
+  <metadata name="xrShape4.Name" xml:space="preserve">
+    <value>xrShape4</value>
+  </metadata>
+  <metadata name="xrShape6.Name" xml:space="preserve">
+    <value>xrShape6</value>
+  </metadata>
+  <metadata name="xrShape8.Name" xml:space="preserve">
+    <value>xrShape8</value>
+  </metadata>
+  <metadata name="xrShape9.Name" xml:space="preserve">
+    <value>xrShape9</value>
+  </metadata>
+  <metadata name="xrLabel22.Name" xml:space="preserve">
+    <value>xrLabel22</value>
+  </metadata>
+  <metadata name="xrLabel21.Name" xml:space="preserve">
+    <value>xrLabel21</value>
+  </metadata>
+  <metadata name="lblResT.Name" xml:space="preserve">
+    <value>lblResT</value>
+  </metadata>
+  <metadata name="lblResU.Name" xml:space="preserve">
+    <value>lblResU</value>
+  </metadata>
+  <metadata name="lblResM.Name" xml:space="preserve">
+    <value>lblResM</value>
+  </metadata>
+  <metadata name="xrLabel18.Name" xml:space="preserve">
+    <value>xrLabel18</value>
+  </metadata>
+  <metadata name="xrLabel17.Name" xml:space="preserve">
+    <value>xrLabel17</value>
+  </metadata>
+  <metadata name="lblNREST.Name" xml:space="preserve">
+    <value>lblNREST</value>
+  </metadata>
+  <metadata name="lblNRESU.Name" xml:space="preserve">
+    <value>lblNRESU</value>
+  </metadata>
+  <metadata name="lblNRESM.Name" xml:space="preserve">
+    <value>lblNRESM</value>
+  </metadata>
+  <metadata name="xrLabel25.Name" xml:space="preserve">
+    <value>xrLabel25</value>
+  </metadata>
+  <metadata name="xrLabel24.Name" xml:space="preserve">
+    <value>xrLabel24</value>
+  </metadata>
+  <metadata name="lblPConTH.Name" xml:space="preserve">
+    <value>lblPConTH</value>
+  </metadata>
+  <metadata name="lblPConUnit.Name" xml:space="preserve">
+    <value>lblPConUnit</value>
+  </metadata>
+  <metadata name="lblPConMill.Name" xml:space="preserve">
+    <value>lblPConMill</value>
+  </metadata>
+  <metadata name="xrLabel20.Name" xml:space="preserve">
+    <value>xrLabel20</value>
+  </metadata>
+  <metadata name="xrLabel19.Name" xml:space="preserve">
+    <value>xrLabel19</value>
+  </metadata>
+  <metadata name="lblPEXT.Name" xml:space="preserve">
+    <value>lblPEXT</value>
+  </metadata>
+  <metadata name="lblPEXU.Name" xml:space="preserve">
+    <value>lblPEXU</value>
+  </metadata>
+  <metadata name="lblPEXM.Name" xml:space="preserve">
+    <value>lblPEXM</value>
+  </metadata>
+  <metadata name="xrLabel15.Name" xml:space="preserve">
+    <value>xrLabel15</value>
+  </metadata>
+  <metadata name="xrLabel14.Name" xml:space="preserve">
+    <value>xrLabel14</value>
+  </metadata>
+  <metadata name="lblPOTH.Name" xml:space="preserve">
+    <value>lblPOTH</value>
+  </metadata>
+  <metadata name="lblPOUN.Name" xml:space="preserve">
+    <value>lblPOUN</value>
+  </metadata>
+  <metadata name="lblPOMILL.Name" xml:space="preserve">
+    <value>lblPOMILL</value>
+  </metadata>
+  <metadata name="xrLabel11.Name" xml:space="preserve">
+    <value>xrLabel11</value>
+  </metadata>
+  <metadata name="xrLabel10.Name" xml:space="preserve">
+    <value>xrLabel10</value>
+  </metadata>
+  <metadata name="xrLabel9.Name" xml:space="preserve">
+    <value>xrLabel9</value>
+  </metadata>
+  <metadata name="xrLabel8.Name" xml:space="preserve">
+    <value>xrLabel8</value>
+  </metadata>
+  <metadata name="xrLabel7.Name" xml:space="preserve">
+    <value>xrLabel7</value>
+  </metadata>
+  <metadata name="xrLabel6.Name" xml:space="preserve">
+    <value>xrLabel6</value>
+  </metadata>
+  <metadata name="xrLabel5.Name" xml:space="preserve">
+    <value>xrLabel5</value>
+  </metadata>
+  <metadata name="xrShape10.Name" xml:space="preserve">
+    <value>xrShape10</value>
+  </metadata>
+  <metadata name="xrShape7.Name" xml:space="preserve">
+    <value>xrShape7</value>
+  </metadata>
+  <metadata name="xrShape5.Name" xml:space="preserve">
+    <value>xrShape5</value>
+  </metadata>
+  <metadata name="xrShape2.Name" xml:space="preserve">
+    <value>xrShape2</value>
+  </metadata>
+  <metadata name="xrShape1.Name" xml:space="preserve">
+    <value>xrShape1</value>
+  </metadata>
+  <metadata name="xrLabel4.Name" xml:space="preserve">
+    <value>xrLabel4</value>
+  </metadata>
+  <metadata name="xrLabel3.Name" xml:space="preserve">
+    <value>xrLabel3</value>
+  </metadata>
+  <metadata name="xrLabel2.Name" xml:space="preserve">
+    <value>xrLabel2</value>
+  </metadata>
+  <metadata name="xrLabel1.Name" xml:space="preserve">
+    <value>xrLabel1</value>
+  </metadata>
+  <metadata name="GroupFooter1.Name" xml:space="preserve">
+    <value>GroupFooter1</value>
+  </metadata>
+  <metadata name="SExchange.Name" xml:space="preserve">
+    <value>SExchange</value>
+  </metadata>
+  <metadata name="calculatedField2.Name" xml:space="preserve">
+    <value>calculatedField2</value>
+  </metadata>
+  <metadata name="$this.Name" xml:space="preserve">
+    <value>rptSEC6</value>
+  </metadata>
+</root>

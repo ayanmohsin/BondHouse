@@ -1,0 +1,221 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
+
+namespace ExchangeCompanySoftware
+{
+    public partial class ReportQueryBuilder : BaseForm
+    {
+        string strOrderby;
+        string strQuery;
+        string strError;
+        GetData.ServiceSoapClient objGetData;
+        DataTable dtb;
+        enum Grid { not, Query, Caption, Criteria, btn, Man, DataType, Operator, Order };
+        private string objectname1 = String.Empty;
+        private void AddColumninDetailGrid()
+        {
+            DataGridViewTextBoxColumn clmnQuery = new DataGridViewTextBoxColumn();
+            clmnQuery.Name = "Query";
+            clmnQuery.HeaderText = "Query";
+            clmnQuery.Width = 40;
+            clmnQuery.ReadOnly = true;
+            dtbDetail.Columns.Add(clmnQuery);
+
+            DataGridViewTextBoxColumn clmnCaption = new DataGridViewTextBoxColumn();
+            clmnCaption.Name = "Caption";
+            clmnCaption.HeaderText = "Caption";
+            clmnCaption.Width = 40;
+            clmnCaption.ReadOnly = true;
+            dtbDetail.Columns.Add(clmnCaption);
+         
+            DataGridViewTextBoxColumn clmnnot = new DataGridViewTextBoxColumn();
+            clmnnot.Name = "not";
+            clmnnot.HeaderText = "not";
+            clmnnot.Width = 40;
+            clmnnot.ReadOnly = true;
+            dtbDetail.Columns.Add(clmnnot);
+
+            
+            DataGridViewComboBoxColumn cboTitle = new DataGridViewComboBoxColumn();
+            cboTitle.Name = "Operator";
+            cboTitle.HeaderText = "Operator";
+            cboTitle.Width = 50;
+           // cboTitle.DataSource = dtb;
+         //   cboTitle.DisplayMember = "Operator";
+          //  cboTitle.ValueMember = "Operator";
+            dtbDetail.Columns.Add(cboTitle);
+
+            DataGridViewTextBoxColumn clmnMan = new DataGridViewTextBoxColumn();
+            clmnMan.Name = "Man";
+            clmnMan.HeaderText = "Man";
+            clmnMan.Width = 40;
+            clmnMan.ReadOnly = true;
+            dtbDetail.Columns.Add(clmnMan);
+
+            DataGridViewTextBoxColumn clmnDatatype = new DataGridViewTextBoxColumn();
+            clmnDatatype.Name = "Datatype";
+            clmnDatatype.HeaderText = "Datatype";
+            clmnDatatype.Width = 40;
+            clmnDatatype.ReadOnly = true;
+            dtbDetail.Columns.Add(clmnDatatype);
+
+
+            DataGridViewCheckBoxColumn chkOrder = new DataGridViewCheckBoxColumn();
+            chkOrder.Name = "Order";
+            chkOrder.HeaderText = "Order";
+            chkOrder.Width = 50;
+            dtbDetail.Columns.Add(chkOrder);
+
+
+        }
+        public ReportQueryBuilder(string objectname)
+        {
+            InitializeComponent();
+            objectname1 = objectname;
+        }
+        private void populateAllQueryField()
+        {
+            objGetData = new ExchangeCompanySoftware.GetData.ServiceSoapClient();
+            dtb = new DataTable();
+            strQuery = "Select * from AllqueryField Where ObjectName = '" + objectname1 + "';Select * from EX_System Where Flag = 'O'";
+            dtb = objGetData.GetDataSet(strQuery).Tables[0];
+            string[] words = dtb.Rows[0][1].ToString().Split(';');
+            AddColumninDetailGrid();
+            int l = dtb.Rows.Count;
+            for (int i = 0; i < l; i++)
+            {
+                int n = dtbDetail.Rows.Add();
+                dtbDetail.Rows[n].Cells["not"].Value = dtb.Rows[i][2].ToString();
+                if (dtb.Rows[i][4].ToString().Contains("strBranch") == true)
+                {
+                    dtb.Rows[i][4] = dtb.Rows[i][4].ToString().Replace("strBranch", General.strBranchCodeFrom.ToString());
+                }
+                dtbDetail.Rows[n].Cells["Query"].Value = dtb.Rows[i][4].ToString();
+                dtbDetail.Rows[n].Cells["Caption"].Value = dtb.Rows[i][3].ToString();
+                dtbDetail.Rows[n].Cells["Man"].Value = dtb.Rows[i][5].ToString();
+                dtbDetail.Rows[n].Cells["DataType"].Value = dtb.Rows[i][6].ToString();
+            }
+            //for (int i = 0; i < dtbDetail.Rows.Count; i++)
+            //{
+            //    dtbDetail.Rows[i].Cells[(int)Grid.Operator].Value = "=";
+            //}
+        }
+        private Boolean CheckMandatory()
+        {
+            Boolean blnState = true;
+            strError = "";
+            for (int i = 0; i < dtbDetail.Rows.Count; i++)
+            {
+                if (Convert.ToBoolean(dtbDetail.Rows[i].Cells[(int)Grid.Man].Value) == true)
+                {
+                    if (dtbDetail.Rows[i].Cells[(int)Grid.Criteria].Value == null)
+                    {
+                        blnState = false;
+                        if (strError == "")
+                        {
+                            strError = "must be Enter " + dtbDetail.Rows[i].Cells[(int)Grid.Caption].Value + "";
+                        }
+                        else
+                        {
+                            strError = strError + "\n" + "must be Enter " + dtbDetail.Rows[i].Cells[(int)Grid.Caption].Value + "";
+                        }
+                    }
+                    else
+                    {
+                        blnState = true;
+                    }
+                }
+
+            }
+            return blnState;
+        }
+        public void WhereClause(string strq)
+        {
+            string strqry;
+            strqry = strQuery;
+            Boolean bolstate;
+            if (strqry.Contains("qryBranchFrom") == true || strqry.Contains("qryBranchTo") == true)
+            {
+                strqry = strqry.Replace("qryBranchFrom", General.strBranchCodeFrom.ToString());
+                strqry = strqry.Replace("qryBranchTo", General.strBranchCodeTo.ToString());
+            }
+            for (int i = 0; i < dtbDetail.Rows.Count; i++)
+            {
+                if (dtbDetail.Rows[i].Cells[(int)Grid.Criteria].Value != String.Empty && dtbDetail.Rows[i].Cells[(int)Grid.Criteria].Value != null)
+                {
+                    if (strqry.Contains("DateFrom") == true || strqry.Contains("Dateason") == true || strqry.Contains("DateTo") == true || strqry.Contains("qryStringValue") == true || strqry.Contains("qryBranchFrom") == true || strqry.Contains("qryBranchTo") == true)
+                    {
+                        if (dtbDetail.Rows[i].Cells[(int)Grid.not].Value.ToString() == "Dateason")
+                        {
+                            strqry = strqry.Replace("Dateason", Convert.ToDateTime(dtbDetail.Rows[i].Cells[(int)Grid.Criteria].Value.ToString()).ToString("dd-MMM-yyyy"));
+                        }
+                        else if (dtbDetail.Rows[i].Cells[(int)Grid.not].Value.ToString() == "DateFrom")
+                        {
+                            strqry = strqry.Replace("DateFrom", Convert.ToDateTime(dtbDetail.Rows[i].Cells[(int)Grid.Criteria].Value.ToString()).ToString("dd-MMM-yyyy"));
+                            strqry = strqry.Replace("DateTo", Convert.ToDateTime(dtbDetail.Rows[i + 1].Cells[(int)Grid.Criteria].Value.ToString()).ToString("dd-MMM-yyyy"));
+                        }
+                        else if (dtbDetail.Rows[i].Cells[(int)Grid.not].Value.ToString() == "qryStringValue")
+                        {
+                            strqry = strqry.Replace("qryStringValue", dtbDetail.Rows[i].Cells[(int)Grid.Criteria].Value.ToString());
+                        }
+                        else if (dtbDetail.Rows[i].Cells[(int)Grid.not].Value.ToString() == "qryBranchFrom")
+                        {
+                            strqry = strqry.Replace("qryBranchFrom", General.strBranchCode.ToString());
+                        }
+                        else if (dtbDetail.Rows[i].Cells[(int)Grid.not].Value.ToString() == "qryBranchTo")
+                        {
+                            strqry = strqry.Replace("qryBranchTo", General.strBranchCodeTo.ToString());
+                        }
+                    }
+                    if (dtbDetail.Rows[i].Cells[(int)Grid.not].Value.ToString() != "Dateason".ToString() && dtbDetail.Rows[i].Cells[(int)Grid.not].Value.ToString() != "DateFrom".ToString() && dtbDetail.Rows[i].Cells[(int)Grid.not].Value.ToString() != "DateTo".ToString() && dtbDetail.Rows[i].Cells[(int)Grid.not].Value.ToString() != "qryStringValue".ToString())
+                    {
+                        strqry = strqry + " and " + dtbDetail.Rows[i].Cells[(int)Grid.not].Value + " " + dtbDetail.Rows[i].Cells[(int)Grid.Operator].Value + "  ('" + dtbDetail.Rows[i].Cells[(int)Grid.Criteria].Value + "')";
+                    }
+                }
+                strQuery = strqry;
+            }
+
+        }
+        public void OrderbyClause()
+        {
+            string strOrderbyClause = null;
+            if (strOrderby != "")
+            {
+                strOrderbyClause = "Order by " + strOrderby;
+            }
+            for (int i = 0; i < dtbDetail.Rows.Count; i++)
+            {
+                if (Convert.ToBoolean(dtbDetail.Rows[i].Cells[(int)Grid.Order].Value) == true)
+                {
+                    if (strOrderbyClause == null)
+                    {
+                        strOrderbyClause = "Order by " + dtbDetail.Rows[i].Cells[(int)Grid.not].Value + "";
+                    }
+                    else
+                    {
+                        strOrderbyClause = strOrderbyClause + "," + dtbDetail.Rows[i].Cells[(int)Grid.not].Value + "";
+                    }
+                }
+            }
+            strQuery = strQuery + "  " + strOrderbyClause;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ReportQueryBuilder_Load(object sender, EventArgs e)
+        {
+            dtbMaster.Visible = false;
+            statusStrip1.Visible = false;
+            populateAllQueryField();
+        }
+    }
+}

@@ -1,0 +1,347 @@
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_32\mscorlib\2.0.0.0__b77a5c561934e089\mscorlib.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities\9.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\System.Windows.Forms\2.0.0.0__b77a5c561934e089\System.Windows.Forms.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\System\2.0.0.0__b77a5c561934e089\System.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\System.Drawing\2.0.0.0__b03f5f7f11d50a3a\System.Drawing.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\Microsoft.VisualStudio.HostingProcess.Utilities.Sync\9.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.HostingProcess.Utilities.Sync.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\Microsoft.VisualStudio.Debugger.Runtime\9.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Debugger.Runtime.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'F:\Exchange Company A\Swiss Exchange\ExchangeCompanySoftware\ExchangeCompanySoftware\bin\Debug\ExchangeCompanySoftware.vshost.exe', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\CrystalDecisions.CrystalReports.Engine\10.5.3700.0__692fbea5521e1304\CrystalDecisions.CrystalReports.Engine.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC\CrystalDecisions.Enterprise.Framework\10.5.3700.0__692fbea5521e1304\CrystalDecisions.Enterprise.Framework.dll'
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC\CrystalDecisions.Enterprise.InfoStore\10.5.3700.0__692fbea5521e1304\CrystalDecisions.Enterprise.InfoStore.dll'
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\CrystalDecisions.ReportSource\10.5.3700.0__692fbea5521e1304\CrystalDecisions.ReportSource.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\CrystalDecisions.Shared\10.5.3700.0__692fbea5521e1304\CrystalDecisions.Shared.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\CrystalDecisions.Windows.Forms\10.5.3700.0__692fbea5521e1304\CrystalDecisions.Windows.Forms.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.BonusSkins.v8.3\8.3.4.0__95fc6c5621878f0a\DevExpress.BonusSkins.v8.3.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.Charts.v8.3.Core\8.3.4.0__5377c8e3b72b4073\DevExpress.Charts.v8.3.Core.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.Data.v8.3\8.3.4.0__5377c8e3b72b4073\DevExpress.Data.v8.3.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.Data.v8.3.Compact\8.3.4.0__5377c8e3b72b4073\DevExpress.Data.v8.3.Compact.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.Data.v8.3.Linq\8.3.4.0__5377c8e3b72b4073\DevExpress.Data.v8.3.Linq.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.OfficeSkins.v8.3\8.3.4.0__95fc6c5621878f0a\DevExpress.OfficeSkins.v8.3.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.SharePoint.MOSS.v8.3\8.3.4.0__5377c8e3b72b4073\DevExpress.SharePoint.MOSS.v8.3.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.SharePoint.WSS.v8.3\8.3.4.0__5377c8e3b72b4073\DevExpress.SharePoint.WSS.v8.3.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.Tutorials.v8.3\8.3.4.0__5377c8e3b72b4073\DevExpress.Tutorials.v8.3.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.Utils.v8.3\8.3.4.0__5377c8e3b72b4073\DevExpress.Utils.v8.3.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.Web.ASPxEditors.v8.3\8.3.4.0__5377c8e3b72b4073\DevExpress.Web.ASPxEditors.v8.3.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.Web.ASPxGridView.v8.3\8.3.4.0__5377c8e3b72b4073\DevExpress.Web.ASPxGridView.v8.3.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.Web.ASPxGridView.v8.3.Export\8.3.4.0__5377c8e3b72b4073\DevExpress.Web.ASPxGridView.v8.3.Export.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.Web.ASPxHtmlEditor.v8.3\8.3.4.0__5377c8e3b72b4073\DevExpress.Web.ASPxHtmlEditor.v8.3.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.Web.ASPxPivotGrid.v8.3\8.3.4.0__5377c8e3b72b4073\DevExpress.Web.ASPxPivotGrid.v8.3.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.Web.ASPxPivotGrid.v8.3.Export\8.3.4.0__5377c8e3b72b4073\DevExpress.Web.ASPxPivotGrid.v8.3.Export.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.Web.ASPxScheduler.v8.3\8.3.4.0__5377c8e3b72b4073\DevExpress.Web.ASPxScheduler.v8.3.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.Web.ASPxScheduler.v8.3.Design\8.3.4.0__5377c8e3b72b4073\DevExpress.Web.ASPxScheduler.v8.3.Design.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.Web.ASPxSpellChecker.v8.3\8.3.4.0__5377c8e3b72b4073\DevExpress.Web.ASPxSpellChecker.v8.3.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.Web.ASPxTreeList.v8.3\8.3.4.0__5377c8e3b72b4073\DevExpress.Web.ASPxTreeList.v8.3.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.Web.ASPxTreeList.v8.3.Export\8.3.4.0__5377c8e3b72b4073\DevExpress.Web.ASPxTreeList.v8.3.Export.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.Web.v8.3\8.3.4.0__5377c8e3b72b4073\DevExpress.Web.v8.3.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.WPF.Carousel.Customization.v8.3\8.3.4.0__5377c8e3b72b4073\DevExpress.WPF.Carousel.Customization.v8.3.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.Wpf.Carousel.v8.3\8.3.4.0__5377c8e3b72b4073\DevExpress.Wpf.Carousel.v8.3.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.Wpf.Carousel.v8.3.Expression.Design\8.3.4.0__5377c8e3b72b4073\DevExpress.Wpf.Carousel.v8.3.Expression.Design.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.Wpf.Carousel.v8.3.VisualStudio.Design\8.3.4.0__5377c8e3b72b4073\DevExpress.Wpf.Carousel.v8.3.VisualStudio.Design.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.Wpf.Charts.v8.3\8.3.4.0__5377c8e3b72b4073\DevExpress.Wpf.Charts.v8.3.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.Wpf.Charts.v8.3.Expression.Design\8.3.4.0__5377c8e3b72b4073\DevExpress.Wpf.Charts.v8.3.Expression.Design.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.Wpf.Charts.v8.3.VisualStudio.Design\8.3.4.0__5377c8e3b72b4073\DevExpress.Wpf.Charts.v8.3.VisualStudio.Design.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.Wpf.DemoBase.v8.3\8.3.4.0__5377c8e3b72b4073\DevExpress.Wpf.DemoBase.v8.3.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.Wpf.Editors.v8.3\8.3.4.0__5377c8e3b72b4073\DevExpress.Wpf.Editors.v8.3.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.Wpf.Grid.v8.3\8.3.4.0__5377c8e3b72b4073\DevExpress.Wpf.Grid.v8.3.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.Wpf.Grid.v8.3.Expression.Design\8.3.4.0__5377c8e3b72b4073\DevExpress.Wpf.Grid.v8.3.Expression.Design.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.Wpf.Grid.v8.3.VisualStudio.Design\8.3.4.0__5377c8e3b72b4073\DevExpress.Wpf.Grid.v8.3.VisualStudio.Design.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.Wpf.NavBar.v8.3\8.3.4.0__5377c8e3b72b4073\DevExpress.Wpf.NavBar.v8.3.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.Wpf.NavBar.v8.3.Expression.Design\8.3.4.0__5377c8e3b72b4073\DevExpress.Wpf.NavBar.v8.3.Expression.Design.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.Wpf.NavBar.v8.3.VisualStudio.Design\8.3.4.0__5377c8e3b72b4073\DevExpress.Wpf.NavBar.v8.3.VisualStudio.Design.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.Wpf.Utils.v8.3\8.3.4.0__5377c8e3b72b4073\DevExpress.Wpf.Utils.v8.3.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.Xpo.v8.3\8.3.4.0__5377c8e3b72b4073\DevExpress.Xpo.v8.3.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.Xpo.v8.3.Compact\8.3.4.0__5377c8e3b72b4073\DevExpress.Xpo.v8.3.Compact.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.Xpo.v8.3.Design\8.3.4.0__5377c8e3b72b4073\DevExpress.Xpo.v8.3.Design.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.Xpo.v8.3.Linq\8.3.4.0__5377c8e3b72b4073\DevExpress.Xpo.v8.3.Linq.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.Xpo.v8.3.Providers\8.3.4.0__5377c8e3b72b4073\DevExpress.Xpo.v8.3.Providers.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.Xpo.v8.3.Providers.Compact\8.3.4.0__5377c8e3b72b4073\DevExpress.Xpo.v8.3.Providers.Compact.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.XtraBars.v8.3\8.3.4.0__5377c8e3b72b4073\DevExpress.XtraBars.v8.3.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.XtraCharts.v8.3\8.3.4.0__5377c8e3b72b4073\DevExpress.XtraCharts.v8.3.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.XtraCharts.v8.3.UI\8.3.4.0__5377c8e3b72b4073\DevExpress.XtraCharts.v8.3.UI.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.XtraEditors.v8.3\8.3.4.0__5377c8e3b72b4073\DevExpress.XtraEditors.v8.3.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.XtraGauges.v8.3.Core\8.3.4.0__5377c8e3b72b4073\DevExpress.XtraGauges.v8.3.Core.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.XtraGauges.v8.3.Win\8.3.4.0__5377c8e3b72b4073\DevExpress.XtraGauges.v8.3.Win.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.XtraGrid.v8.3\8.3.4.0__5377c8e3b72b4073\DevExpress.XtraGrid.v8.3.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.XtraLayout.v8.3\8.3.4.0__5377c8e3b72b4073\DevExpress.XtraLayout.v8.3.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.XtraNavBar.v8.3\8.3.4.0__5377c8e3b72b4073\DevExpress.XtraNavBar.v8.3.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.XtraPivotGrid.v8.3\8.3.4.0__5377c8e3b72b4073\DevExpress.XtraPivotGrid.v8.3.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.XtraPivotGrid.v8.3.Core\8.3.4.0__5377c8e3b72b4073\DevExpress.XtraPivotGrid.v8.3.Core.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.XtraPrinting.v8.3\8.3.4.0__5377c8e3b72b4073\DevExpress.XtraPrinting.v8.3.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.XtraReports.v8.3\8.3.4.0__5377c8e3b72b4073\DevExpress.XtraReports.v8.3.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\DevExpress.XtraVerticalGrid.v8.3.Design\8.3.4.0__5377c8e3b72b4073\DevExpress.XtraVerticalGrid.v8.3.Design.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\Microsoft.SqlServer.XmlSrc\9.0.242.0__89845dcd8080cc91\Microsoft.SqlServer.XmlSrc.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\System.Configuration\2.0.0.0__b03f5f7f11d50a3a\System.Configuration.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\System.Core\3.5.0.0__b77a5c561934e089\System.Core.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\System.Design\2.0.0.0__b03f5f7f11d50a3a\System.Design.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\System.Runtime.Serialization\3.0.0.0__b77a5c561934e089\System.Runtime.Serialization.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\System.ServiceModel\3.0.0.0__b77a5c561934e089\System.ServiceModel.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_32\System.Transactions\2.0.0.0__b77a5c561934e089\System.Transactions.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_32\System.Web\2.0.0.0__b03f5f7f11d50a3a\System.Web.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\System.Xml.Linq\3.5.0.0__b77a5c561934e089\System.Xml.Linq.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\System.Data.DataSetExtensions\3.5.0.0__b77a5c561934e089\System.Data.DataSetExtensions.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_32\System.Data\2.0.0.0__b77a5c561934e089\System.Data.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\System.Deployment\2.0.0.0__b03f5f7f11d50a3a\System.Deployment.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\System.Xml\2.0.0.0__b77a5c561934e089\System.Xml.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+The thread 0x944 has exited with code 0 (0x0).
+The thread 0xc60 has exited with code 0 (0x0).
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'F:\Exchange Company A\Swiss Exchange\ExchangeCompanySoftware\ExchangeCompanySoftware\bin\Debug\ExchangeCompanySoftware.exe', Symbols loaded.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\SMDiagnostics\3.0.0.0__b77a5c561934e089\SMDiagnostics.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\System.WorkflowServices\3.5.0.0__31bf3856ad364e35\System.WorkflowServices.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\System.ServiceModel.Web\3.5.0.0__31bf3856ad364e35\System.ServiceModel.Web.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\Microsoft.VisualStudio.Diagnostics.ServiceModelSink\3.0.0.0__b03f5f7f11d50a3a\Microsoft.VisualStudio.Diagnostics.ServiceModelSink.dll'
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\System.IdentityModel\3.0.0.0__b77a5c561934e089\System.IdentityModel.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'p--vl1wq'
+'ExchangeCompanySoftware.vshost.exe' (Managed): Loaded 'C:\WINDOWS\assembly\GAC_MSIL\Accessibility\2.0.0.0__b03f5f7f11d50a3a\Accessibility.dll', Skipped loading symbols. Module is optimized and the debugger option 'Just My Code' is enabled.
+The thread 0x26c has exited with code 0 (0x0).
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+The thread 0x1c0 has exited with code 0 (0x0).
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+A first chance exception of type 'System.FormatException' occurred in mscorlib.dll
+The thread 0xcb8 has exited with code 0 (0x0).
+The thread 0x9dc has exited with code 0 (0x0).
+The program '[2136] ExchangeCompanySoftware.vshost.exe: Managed' has exited with code 0 (0x0).

@@ -1,0 +1,795 @@
+﻿namespace ExchangeCompanySoftware
+{
+    partial class frmSalesReturn
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            this.dtbDetail = new System.Windows.Forms.DataGridView();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.ditxtVoucherNo = new ExchangeCompanySoftware.cstTextBox();
+            this.dtDate = new ExchangeCompanySoftware.Custom_Controls.cstDateTimePicker();
+            this.label16 = new System.Windows.Forms.Label();
+            this.PnlMain = new System.Windows.Forms.Panel();
+            this.label11 = new System.Windows.Forms.Label();
+            this.txtBarCode = new ExchangeCompanySoftware.cstTextBox();
+            this.pnlMain3 = new ExchangeCompanySoftware.Custom_Controls.PnlMain();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label27 = new System.Windows.Forms.Label();
+            this.donumTotalCharges = new ExchangeCompanySoftware.cstNumericupDown();
+            this.label26 = new System.Windows.Forms.Label();
+            this.donumOtherCharges = new ExchangeCompanySoftware.cstNumericupDown();
+            this.pnlMain2 = new ExchangeCompanySoftware.Custom_Controls.PnlMain();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label25 = new System.Windows.Forms.Label();
+            this.donumLabourCharges = new ExchangeCompanySoftware.cstNumericupDown();
+            this.label24 = new System.Windows.Forms.Label();
+            this.donumTransportCharges = new ExchangeCompanySoftware.cstNumericupDown();
+            this.label22 = new System.Windows.Forms.Label();
+            this.donumCustomClearing = new ExchangeCompanySoftware.cstNumericupDown();
+            this.label20 = new System.Windows.Forms.Label();
+            this.dotxtDiscountAmount = new ExchangeCompanySoftware.cstNumericupDown();
+            this.label1 = new System.Windows.Forms.Label();
+            this.dotxtTaxamount = new ExchangeCompanySoftware.cstNumericupDown();
+            this.dotxtUsd = new ExchangeCompanySoftware.cstNumericupDown();
+            this.lab = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.dotxtNetAmount = new ExchangeCompanySoftware.cstNumericupDown();
+            this.dotxtTax = new ExchangeCompanySoftware.cstNumericupDown();
+            this.dotxtDiscount = new ExchangeCompanySoftware.cstNumericupDown();
+            this.dotxtGrossAmount = new ExchangeCompanySoftware.cstNumericupDown();
+            this.pnlMain7 = new ExchangeCompanySoftware.Custom_Controls.PnlMain();
+            this.label36 = new System.Windows.Forms.Label();
+            this.pnlMain1 = new ExchangeCompanySoftware.Custom_Controls.PnlMain();
+            this.label21 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.dotxtRemarks = new ExchangeCompanySoftware.cstTextBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.dicbopaymentMode = new ExchangeCompanySoftware.cstComboBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.dicboSalesMen = new ExchangeCompanySoftware.cstComboBox();
+            ((System.ComponentModel.ISupportInitialize)(this.dtbDetail)).BeginInit();
+            this.PnlMain.SuspendLayout();
+            this.pnlMain3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.donumTotalCharges)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.donumOtherCharges)).BeginInit();
+            this.pnlMain2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.donumLabourCharges)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.donumTransportCharges)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.donumCustomClearing)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dotxtDiscountAmount)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dotxtTaxamount)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dotxtUsd)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dotxtNetAmount)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dotxtTax)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dotxtDiscount)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dotxtGrossAmount)).BeginInit();
+            this.pnlMain7.SuspendLayout();
+            this.pnlMain1.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // dtbDetail
+            // 
+            this.dtbDetail.AllowUserToAddRows = false;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.NavajoWhite;
+            this.dtbDetail.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.dtbDetail.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dtbDetail.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(186)))), ((int)(((byte)(202)))), ((int)(((byte)(233)))));
+            this.dtbDetail.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtbDetail.Location = new System.Drawing.Point(3, 145);
+            this.dtbDetail.Name = "dtbDetail";
+            this.dtbDetail.Size = new System.Drawing.Size(1111, 104);
+            this.dtbDetail.TabIndex = 6;
+            this.dtbDetail.CellPainting += new System.Windows.Forms.DataGridViewCellPaintingEventHandler(this.dtbDetail_CellPainting);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(429, 251);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(59, 13);
+            this.label2.TabIndex = 36;
+            this.label2.Text = "Invoice No";
+            this.label2.Visible = false;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(15, 58);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(64, 13);
+            this.label12.TabIndex = 53;
+            this.label12.Text = "Voucher No";
+            // 
+            // ditxtVoucherNo
+            // 
+            this.ditxtVoucherNo.BackColor = System.Drawing.Color.Snow;
+            this.ditxtVoucherNo.DataField = "VoucherNo";
+            this.ditxtVoucherNo.Enabled = false;
+            this.ditxtVoucherNo.Location = new System.Drawing.Point(116, 55);
+            this.ditxtVoucherNo.Name = "ditxtVoucherNo";
+            this.ditxtVoucherNo.Size = new System.Drawing.Size(100, 20);
+            this.ditxtVoucherNo.TabIndex = 0;
+            this.ditxtVoucherNo.Tag = "VoucherNo";
+            // 
+            // dtDate
+            // 
+            this.dtDate.CustomFormat = "dd/MMM/yyyy";
+            this.dtDate.DataField = null;
+            this.dtDate.Enabled = false;
+            this.dtDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dtDate.Location = new System.Drawing.Point(117, 29);
+            this.dtDate.Name = "dtDate";
+            this.dtDate.Size = new System.Drawing.Size(106, 20);
+            this.dtDate.TabIndex = 815;
+            this.dtDate.Tag = "TransDate";
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(15, 33);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(60, 13);
+            this.label16.TabIndex = 816;
+            this.label16.Text = "Trans Date";
+            // 
+            // PnlMain
+            // 
+            this.PnlMain.BackColor = System.Drawing.Color.Transparent;
+            this.PnlMain.Controls.Add(this.label10);
+            this.PnlMain.Controls.Add(this.dicboSalesMen);
+            this.PnlMain.Controls.Add(this.label11);
+            this.PnlMain.Controls.Add(this.txtBarCode);
+            this.PnlMain.Controls.Add(this.pnlMain3);
+            this.PnlMain.Controls.Add(this.label27);
+            this.PnlMain.Controls.Add(this.donumTotalCharges);
+            this.PnlMain.Controls.Add(this.label26);
+            this.PnlMain.Controls.Add(this.donumOtherCharges);
+            this.PnlMain.Controls.Add(this.pnlMain2);
+            this.PnlMain.Controls.Add(this.label25);
+            this.PnlMain.Controls.Add(this.donumLabourCharges);
+            this.PnlMain.Controls.Add(this.label24);
+            this.PnlMain.Controls.Add(this.donumTransportCharges);
+            this.PnlMain.Controls.Add(this.label22);
+            this.PnlMain.Controls.Add(this.donumCustomClearing);
+            this.PnlMain.Controls.Add(this.label20);
+            this.PnlMain.Controls.Add(this.dotxtDiscountAmount);
+            this.PnlMain.Controls.Add(this.label1);
+            this.PnlMain.Controls.Add(this.dotxtTaxamount);
+            this.PnlMain.Controls.Add(this.dotxtUsd);
+            this.PnlMain.Controls.Add(this.lab);
+            this.PnlMain.Controls.Add(this.label3);
+            this.PnlMain.Controls.Add(this.label4);
+            this.PnlMain.Controls.Add(this.label15);
+            this.PnlMain.Controls.Add(this.label5);
+            this.PnlMain.Controls.Add(this.dotxtNetAmount);
+            this.PnlMain.Controls.Add(this.dotxtTax);
+            this.PnlMain.Controls.Add(this.dotxtDiscount);
+            this.PnlMain.Controls.Add(this.dotxtGrossAmount);
+            this.PnlMain.Controls.Add(this.pnlMain7);
+            this.PnlMain.Controls.Add(this.dtbDetail);
+            this.PnlMain.Controls.Add(this.pnlMain1);
+            this.PnlMain.Controls.Add(this.label7);
+            this.PnlMain.Controls.Add(this.dotxtRemarks);
+            this.PnlMain.Controls.Add(this.label17);
+            this.PnlMain.Controls.Add(this.dicbopaymentMode);
+            this.PnlMain.Controls.Add(this.label16);
+            this.PnlMain.Controls.Add(this.dtDate);
+            this.PnlMain.Controls.Add(this.ditxtVoucherNo);
+            this.PnlMain.Controls.Add(this.label12);
+            this.PnlMain.Location = new System.Drawing.Point(3, 3);
+            this.PnlMain.Name = "PnlMain";
+            this.PnlMain.Size = new System.Drawing.Size(1113, 352);
+            this.PnlMain.TabIndex = 99;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(15, 107);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(48, 13);
+            this.label11.TabIndex = 905;
+            this.label11.Text = "BarCode";
+            // 
+            // txtBarCode
+            // 
+            this.txtBarCode.BackColor = System.Drawing.Color.Snow;
+            this.txtBarCode.DataField = null;
+            this.txtBarCode.Location = new System.Drawing.Point(117, 103);
+            this.txtBarCode.Name = "txtBarCode";
+            this.txtBarCode.Size = new System.Drawing.Size(181, 20);
+            this.txtBarCode.TabIndex = 904;
+            this.txtBarCode.Tag = "Remarks";
+            this.txtBarCode.Validating += new System.ComponentModel.CancelEventHandler(this.txtBarCode_Validating);
+            // 
+            // pnlMain3
+            // 
+            this.pnlMain3.BeginColor = System.Drawing.Color.Maroon;
+            this.pnlMain3.Controls.Add(this.label8);
+            this.pnlMain3.EndColor = System.Drawing.Color.Red;
+            this.pnlMain3.Location = new System.Drawing.Point(731, 248);
+            this.pnlMain3.Name = "pnlMain3";
+            this.pnlMain3.Size = new System.Drawing.Size(379, 18);
+            this.pnlMain3.TabIndex = 895;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.Transparent;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.White;
+            this.label8.Location = new System.Drawing.Point(143, 3);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(106, 13);
+            this.label8.TabIndex = 0;
+            this.label8.Text = "Total Caculations";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.BackColor = System.Drawing.Color.Transparent;
+            this.label27.Location = new System.Drawing.Point(934, 326);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(73, 13);
+            this.label27.TabIndex = 893;
+            this.label27.Text = "Total Charges";
+            // 
+            // donumTotalCharges
+            // 
+            this.donumTotalCharges.DataField = null;
+            this.donumTotalCharges.DecimalPlaces = 4;
+            this.donumTotalCharges.Location = new System.Drawing.Point(1007, 324);
+            this.donumTotalCharges.Maximum = new decimal(new int[] {
+            1000000000,
+            0,
+            0,
+            0});
+            this.donumTotalCharges.Name = "donumTotalCharges";
+            this.donumTotalCharges.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.donumTotalCharges.Size = new System.Drawing.Size(103, 20);
+            this.donumTotalCharges.TabIndex = 892;
+            this.donumTotalCharges.Tag = "";
+            // 
+            // label26
+            // 
+            this.label26.AutoSize = true;
+            this.label26.BackColor = System.Drawing.Color.Transparent;
+            this.label26.Location = new System.Drawing.Point(221, 299);
+            this.label26.Name = "label26";
+            this.label26.Size = new System.Drawing.Size(75, 13);
+            this.label26.TabIndex = 891;
+            this.label26.Text = "Other Charges";
+            // 
+            // donumOtherCharges
+            // 
+            this.donumOtherCharges.DataField = null;
+            this.donumOtherCharges.DecimalPlaces = 4;
+            this.donumOtherCharges.Location = new System.Drawing.Point(305, 297);
+            this.donumOtherCharges.Maximum = new decimal(new int[] {
+            1000000000,
+            0,
+            0,
+            0});
+            this.donumOtherCharges.Name = "donumOtherCharges";
+            this.donumOtherCharges.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.donumOtherCharges.Size = new System.Drawing.Size(103, 20);
+            this.donumOtherCharges.TabIndex = 890;
+            this.donumOtherCharges.Tag = "OtherCharges";
+            this.donumOtherCharges.Validated += new System.EventHandler(this.donumOtherCharges_Validated);
+            // 
+            // pnlMain2
+            // 
+            this.pnlMain2.BeginColor = System.Drawing.Color.Maroon;
+            this.pnlMain2.Controls.Add(this.label6);
+            this.pnlMain2.EndColor = System.Drawing.Color.Red;
+            this.pnlMain2.Location = new System.Drawing.Point(10, 250);
+            this.pnlMain2.Name = "pnlMain2";
+            this.pnlMain2.Size = new System.Drawing.Size(400, 18);
+            this.pnlMain2.TabIndex = 894;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.White;
+            this.label6.Location = new System.Drawing.Point(123, 2);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(173, 13);
+            this.label6.TabIndex = 0;
+            this.label6.Text = "Other Charges and Discounts";
+            // 
+            // label25
+            // 
+            this.label25.AutoSize = true;
+            this.label25.BackColor = System.Drawing.Color.Transparent;
+            this.label25.Location = new System.Drawing.Point(221, 271);
+            this.label25.Name = "label25";
+            this.label25.Size = new System.Drawing.Size(82, 13);
+            this.label25.TabIndex = 889;
+            this.label25.Text = "Labour Charges";
+            // 
+            // donumLabourCharges
+            // 
+            this.donumLabourCharges.DataField = null;
+            this.donumLabourCharges.DecimalPlaces = 4;
+            this.donumLabourCharges.Location = new System.Drawing.Point(305, 269);
+            this.donumLabourCharges.Maximum = new decimal(new int[] {
+            1000000000,
+            0,
+            0,
+            0});
+            this.donumLabourCharges.Name = "donumLabourCharges";
+            this.donumLabourCharges.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.donumLabourCharges.Size = new System.Drawing.Size(103, 20);
+            this.donumLabourCharges.TabIndex = 888;
+            this.donumLabourCharges.Tag = "LabourCharges";
+            this.donumLabourCharges.Validated += new System.EventHandler(this.donumLabourCharges_Validated);
+            // 
+            // label24
+            // 
+            this.label24.AutoSize = true;
+            this.label24.BackColor = System.Drawing.Color.Transparent;
+            this.label24.Location = new System.Drawing.Point(6, 299);
+            this.label24.Name = "label24";
+            this.label24.Size = new System.Drawing.Size(94, 13);
+            this.label24.TabIndex = 887;
+            this.label24.Text = "Transport Charges";
+            // 
+            // donumTransportCharges
+            // 
+            this.donumTransportCharges.DataField = null;
+            this.donumTransportCharges.DecimalPlaces = 4;
+            this.donumTransportCharges.Location = new System.Drawing.Point(112, 297);
+            this.donumTransportCharges.Maximum = new decimal(new int[] {
+            1000000000,
+            0,
+            0,
+            0});
+            this.donumTransportCharges.Name = "donumTransportCharges";
+            this.donumTransportCharges.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.donumTransportCharges.Size = new System.Drawing.Size(103, 20);
+            this.donumTransportCharges.TabIndex = 886;
+            this.donumTransportCharges.Tag = "TransportCharges";
+            this.donumTransportCharges.Validated += new System.EventHandler(this.donumTransportCharges_Validated);
+            // 
+            // label22
+            // 
+            this.label22.AutoSize = true;
+            this.label22.BackColor = System.Drawing.Color.Transparent;
+            this.label22.Location = new System.Drawing.Point(6, 273);
+            this.label22.Name = "label22";
+            this.label22.Size = new System.Drawing.Size(83, 13);
+            this.label22.TabIndex = 885;
+            this.label22.Text = "Custom Clearing";
+            // 
+            // donumCustomClearing
+            // 
+            this.donumCustomClearing.DataField = null;
+            this.donumCustomClearing.DecimalPlaces = 4;
+            this.donumCustomClearing.Location = new System.Drawing.Point(112, 271);
+            this.donumCustomClearing.Maximum = new decimal(new int[] {
+            1000000000,
+            0,
+            0,
+            0});
+            this.donumCustomClearing.Name = "donumCustomClearing";
+            this.donumCustomClearing.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.donumCustomClearing.Size = new System.Drawing.Size(103, 20);
+            this.donumCustomClearing.TabIndex = 884;
+            this.donumCustomClearing.Tag = "CustomClearing";
+            this.donumCustomClearing.Validated += new System.EventHandler(this.donumCustomClearing_Validated);
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.BackColor = System.Drawing.Color.Transparent;
+            this.label20.Location = new System.Drawing.Point(733, 327);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(88, 13);
+            this.label20.TabIndex = 883;
+            this.label20.Text = "Discount Amount";
+            // 
+            // dotxtDiscountAmount
+            // 
+            this.dotxtDiscountAmount.DataField = null;
+            this.dotxtDiscountAmount.DecimalPlaces = 4;
+            this.dotxtDiscountAmount.Location = new System.Drawing.Point(826, 325);
+            this.dotxtDiscountAmount.Maximum = new decimal(new int[] {
+            1000000000,
+            0,
+            0,
+            0});
+            this.dotxtDiscountAmount.Name = "dotxtDiscountAmount";
+            this.dotxtDiscountAmount.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.dotxtDiscountAmount.Size = new System.Drawing.Size(103, 20);
+            this.dotxtDiscountAmount.TabIndex = 882;
+            this.dotxtDiscountAmount.Tag = "";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Location = new System.Drawing.Point(934, 270);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(64, 13);
+            this.label1.TabIndex = 881;
+            this.label1.Text = "Tax Amount";
+            // 
+            // dotxtTaxamount
+            // 
+            this.dotxtTaxamount.DataField = null;
+            this.dotxtTaxamount.DecimalPlaces = 4;
+            this.dotxtTaxamount.Location = new System.Drawing.Point(1005, 268);
+            this.dotxtTaxamount.Maximum = new decimal(new int[] {
+            1000000000,
+            0,
+            0,
+            0});
+            this.dotxtTaxamount.Name = "dotxtTaxamount";
+            this.dotxtTaxamount.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.dotxtTaxamount.Size = new System.Drawing.Size(103, 20);
+            this.dotxtTaxamount.TabIndex = 880;
+            this.dotxtTaxamount.Tag = "";
+            // 
+            // dotxtUsd
+            // 
+            this.dotxtUsd.DataField = null;
+            this.dotxtUsd.DecimalPlaces = 4;
+            this.dotxtUsd.Location = new System.Drawing.Point(824, 267);
+            this.dotxtUsd.Maximum = new decimal(new int[] {
+            1000000000,
+            0,
+            0,
+            0});
+            this.dotxtUsd.Name = "dotxtUsd";
+            this.dotxtUsd.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.dotxtUsd.Size = new System.Drawing.Size(103, 20);
+            this.dotxtUsd.TabIndex = 879;
+            // 
+            // lab
+            // 
+            this.lab.AutoSize = true;
+            this.lab.BackColor = System.Drawing.Color.Transparent;
+            this.lab.Location = new System.Drawing.Point(733, 269);
+            this.lab.Name = "lab";
+            this.lab.Size = new System.Drawing.Size(71, 13);
+            this.lab.TabIndex = 878;
+            this.lab.Text = "Amount (Usd)";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
+            this.label3.Location = new System.Drawing.Point(934, 299);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(63, 13);
+            this.label3.TabIndex = 877;
+            this.label3.Text = "Net Amount";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Location = new System.Drawing.Point(221, 328);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(42, 13);
+            this.label4.TabIndex = 876;
+            this.label4.Text = "Tax (%)";
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.BackColor = System.Drawing.Color.Transparent;
+            this.label15.Location = new System.Drawing.Point(7, 325);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(66, 13);
+            this.label15.TabIndex = 875;
+            this.label15.Text = "Discount (%)";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Location = new System.Drawing.Point(733, 299);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(73, 13);
+            this.label5.TabIndex = 874;
+            this.label5.Text = "Gross Amount";
+            // 
+            // dotxtNetAmount
+            // 
+            this.dotxtNetAmount.DataField = null;
+            this.dotxtNetAmount.DecimalPlaces = 4;
+            this.dotxtNetAmount.Location = new System.Drawing.Point(1005, 298);
+            this.dotxtNetAmount.Maximum = new decimal(new int[] {
+            1000000000,
+            0,
+            0,
+            0});
+            this.dotxtNetAmount.Name = "dotxtNetAmount";
+            this.dotxtNetAmount.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.dotxtNetAmount.Size = new System.Drawing.Size(103, 20);
+            this.dotxtNetAmount.TabIndex = 873;
+            // 
+            // dotxtTax
+            // 
+            this.dotxtTax.DataField = null;
+            this.dotxtTax.DecimalPlaces = 4;
+            this.dotxtTax.Location = new System.Drawing.Point(305, 323);
+            this.dotxtTax.Maximum = new decimal(new int[] {
+            1000000000,
+            0,
+            0,
+            0});
+            this.dotxtTax.Name = "dotxtTax";
+            this.dotxtTax.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.dotxtTax.Size = new System.Drawing.Size(103, 20);
+            this.dotxtTax.TabIndex = 872;
+            this.dotxtTax.Tag = "Tax";
+            this.dotxtTax.Validated += new System.EventHandler(this.dotxtTax_Validated);
+            // 
+            // dotxtDiscount
+            // 
+            this.dotxtDiscount.DataField = null;
+            this.dotxtDiscount.DecimalPlaces = 4;
+            this.dotxtDiscount.Location = new System.Drawing.Point(112, 323);
+            this.dotxtDiscount.Maximum = new decimal(new int[] {
+            1000000000,
+            0,
+            0,
+            0});
+            this.dotxtDiscount.Name = "dotxtDiscount";
+            this.dotxtDiscount.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.dotxtDiscount.Size = new System.Drawing.Size(103, 20);
+            this.dotxtDiscount.TabIndex = 871;
+            this.dotxtDiscount.Tag = "Discount";
+            this.dotxtDiscount.Validated += new System.EventHandler(this.dotxtDiscount_Validated);
+            // 
+            // dotxtGrossAmount
+            // 
+            this.dotxtGrossAmount.DataField = null;
+            this.dotxtGrossAmount.DecimalPlaces = 4;
+            this.dotxtGrossAmount.Location = new System.Drawing.Point(824, 297);
+            this.dotxtGrossAmount.Maximum = new decimal(new int[] {
+            1000000000,
+            0,
+            0,
+            0});
+            this.dotxtGrossAmount.Name = "dotxtGrossAmount";
+            this.dotxtGrossAmount.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.dotxtGrossAmount.Size = new System.Drawing.Size(103, 20);
+            this.dotxtGrossAmount.TabIndex = 870;
+            // 
+            // pnlMain7
+            // 
+            this.pnlMain7.BeginColor = System.Drawing.Color.Maroon;
+            this.pnlMain7.Controls.Add(this.label36);
+            this.pnlMain7.EndColor = System.Drawing.Color.Red;
+            this.pnlMain7.Location = new System.Drawing.Point(3, 125);
+            this.pnlMain7.Name = "pnlMain7";
+            this.pnlMain7.Size = new System.Drawing.Size(1111, 18);
+            this.pnlMain7.TabIndex = 815;
+            // 
+            // label36
+            // 
+            this.label36.AutoSize = true;
+            this.label36.BackColor = System.Drawing.Color.Transparent;
+            this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.ForeColor = System.Drawing.Color.White;
+            this.label36.Location = new System.Drawing.Point(5, 2);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(107, 13);
+            this.label36.TabIndex = 0;
+            this.label36.Text = "Detail Information";
+            // 
+            // pnlMain1
+            // 
+            this.pnlMain1.BeginColor = System.Drawing.Color.Navy;
+            this.pnlMain1.Controls.Add(this.label21);
+            this.pnlMain1.EndColor = System.Drawing.Color.LightSteelBlue;
+            this.pnlMain1.Location = new System.Drawing.Point(3, 3);
+            this.pnlMain1.Name = "pnlMain1";
+            this.pnlMain1.Size = new System.Drawing.Size(1111, 18);
+            this.pnlMain1.TabIndex = 814;
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.ForeColor = System.Drawing.Color.White;
+            this.label21.Location = new System.Drawing.Point(5, 2);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(112, 13);
+            this.label21.TabIndex = 0;
+            this.label21.Text = "Master Information";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(15, 84);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(49, 13);
+            this.label7.TabIndex = 820;
+            this.label7.Text = "Remarks";
+            // 
+            // dotxtRemarks
+            // 
+            this.dotxtRemarks.BackColor = System.Drawing.Color.Snow;
+            this.dotxtRemarks.DataField = null;
+            this.dotxtRemarks.Location = new System.Drawing.Point(117, 81);
+            this.dotxtRemarks.Name = "dotxtRemarks";
+            this.dotxtRemarks.Size = new System.Drawing.Size(777, 20);
+            this.dotxtRemarks.TabIndex = 5;
+            this.dotxtRemarks.Tag = "Remarks";
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(222, 58);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(78, 13);
+            this.label17.TabIndex = 818;
+            this.label17.Text = "Payment Mode";
+            // 
+            // dicbopaymentMode
+            // 
+            this.dicbopaymentMode.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.dicbopaymentMode.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.dicbopaymentMode.BackColor = System.Drawing.Color.Snow;
+            this.dicbopaymentMode.DataField = "TransType";
+            this.dicbopaymentMode.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.dicbopaymentMode.FormattingEnabled = true;
+            this.dicbopaymentMode.Location = new System.Drawing.Point(306, 55);
+            this.dicbopaymentMode.Name = "dicbopaymentMode";
+            this.dicbopaymentMode.Size = new System.Drawing.Size(289, 21);
+            this.dicbopaymentMode.TabIndex = 817;
+            this.dicbopaymentMode.Tag = "PaymentMode";
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(608, 57);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(57, 13);
+            this.label10.TabIndex = 907;
+            this.label10.Text = "Sales Men";
+            // 
+            // dicboSalesMen
+            // 
+            this.dicboSalesMen.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.dicboSalesMen.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.dicboSalesMen.BackColor = System.Drawing.Color.Snow;
+            this.dicboSalesMen.DataField = "TransType";
+            this.dicboSalesMen.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.dicboSalesMen.FormattingEnabled = true;
+            this.dicboSalesMen.Location = new System.Drawing.Point(671, 54);
+            this.dicboSalesMen.Name = "dicboSalesMen";
+            this.dicboSalesMen.Size = new System.Drawing.Size(223, 21);
+            this.dicboSalesMen.TabIndex = 906;
+            this.dicboSalesMen.Tag = "SalesMen";
+            // 
+            // frmSalesReturn
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(1128, 574);
+            this.Controls.Add(this.PnlMain);
+            this.Controls.Add(this.label2);
+            this.Name = "frmSalesReturn";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "S";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.Activated += new System.EventHandler(this.frmTradingVoucher_Activated);
+            this.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.frmTradingVoucher_KeyPress);
+            this.Controls.SetChildIndex(this.label2, 0);
+            this.Controls.SetChildIndex(this.txtStatus, 0);
+            this.Controls.SetChildIndex(this.PnlMain, 0);
+            ((System.ComponentModel.ISupportInitialize)(this.dtbDetail)).EndInit();
+            this.PnlMain.ResumeLayout(false);
+            this.PnlMain.PerformLayout();
+            this.pnlMain3.ResumeLayout(false);
+            this.pnlMain3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.donumTotalCharges)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.donumOtherCharges)).EndInit();
+            this.pnlMain2.ResumeLayout(false);
+            this.pnlMain2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.donumLabourCharges)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.donumTransportCharges)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.donumCustomClearing)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dotxtDiscountAmount)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dotxtTaxamount)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dotxtUsd)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dotxtNetAmount)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dotxtTax)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dotxtDiscount)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dotxtGrossAmount)).EndInit();
+            this.pnlMain7.ResumeLayout(false);
+            this.pnlMain7.PerformLayout();
+            this.pnlMain1.ResumeLayout(false);
+            this.pnlMain1.PerformLayout();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.DataGridView dtbDetail;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label12;
+        private cstTextBox ditxtVoucherNo;
+        public ExchangeCompanySoftware.Custom_Controls.cstDateTimePicker dtDate;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Panel PnlMain;
+        private ExchangeCompanySoftware.Custom_Controls.PnlMain pnlMain1;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Label label36;
+        private ExchangeCompanySoftware.Custom_Controls.PnlMain pnlMain7;
+        private System.Windows.Forms.Label label17;
+        private cstTextBox dotxtRemarks;
+        private System.Windows.Forms.Label label7;
+        private ExchangeCompanySoftware.Custom_Controls.PnlMain pnlMain3;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label27;
+        private cstNumericupDown donumTotalCharges;
+        private System.Windows.Forms.Label label26;
+        private cstNumericupDown donumOtherCharges;
+        private ExchangeCompanySoftware.Custom_Controls.PnlMain pnlMain2;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label25;
+        private cstNumericupDown donumLabourCharges;
+        private System.Windows.Forms.Label label24;
+        private cstNumericupDown donumTransportCharges;
+        private System.Windows.Forms.Label label22;
+        private cstNumericupDown donumCustomClearing;
+        private System.Windows.Forms.Label label20;
+        private cstNumericupDown dotxtDiscountAmount;
+        private System.Windows.Forms.Label label1;
+        private cstNumericupDown dotxtTaxamount;
+        private cstNumericupDown dotxtUsd;
+        private System.Windows.Forms.Label lab;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.Label label5;
+        private cstNumericupDown dotxtNetAmount;
+        private cstNumericupDown dotxtTax;
+        private cstNumericupDown dotxtDiscount;
+        private cstNumericupDown dotxtGrossAmount;
+        private System.Windows.Forms.Label label11;
+        private cstTextBox txtBarCode;
+        private cstComboBox dicbopaymentMode;
+        private System.Windows.Forms.Label label10;
+        private cstComboBox dicboSalesMen;
+    }
+}
+
