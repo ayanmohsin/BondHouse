@@ -1,14 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Windows.Forms;
+﻿using DevExpress.XtraReports.UI;
 using ExchangeCompanySoftware.Custom_Controls;
-using System.Data;
-using System.Net;
 using ExchangeCompanySoftware.Reports;
-
-using DevExpress.XtraReports.UI;
+using System;
+using System.Configuration;
+using System.Data;
+using System.Linq;
+using System.Net;
+using System.Windows.Forms;
 namespace ExchangeCompanySoftware
 {
     class General
@@ -50,10 +48,11 @@ namespace ExchangeCompanySoftware
         public static DataTable dtbControlAccount;
         public static string strBranchCriteria;
         public static Boolean bolisMainUser;
-        public static string gUserId = "Qadirsandh";
+        public static string gUserId = "qwerty123";
         public static string gPassword = "pakistaniZindabad";
         public static string gendPoint = "";
 
+        public static string IsLocal = ConfigurationManager.AppSettings["IsLocal"];
 
 
         BaseForm fs = new BaseForm();
@@ -62,9 +61,26 @@ namespace ExchangeCompanySoftware
         public DataSet GetDataSet(string strQuery) {
             try
             {
-                ExchangeCompanySoftware.GetData.ServiceSoapClient objGetData = new ExchangeCompanySoftware.GetData.ServiceSoapClient();
-                objGetData.Endpoint.Address = new System.ServiceModel.EndpointAddress(General.gendPoint);
-                DataSet ds = objGetData.GetDataSet(strQuery);
+                DataSet ds = new DataSet();
+                DAL bll = null;
+                ExchangeCompanySoftware.GetData.ServiceSoapClient objGetData = null;
+
+                if (IsLocal == "0")
+                {
+                    objGetData = new ExchangeCompanySoftware.GetData.ServiceSoapClient();
+                    objGetData.Endpoint.Address = new System.ServiceModel.EndpointAddress(General.gendPoint);
+                    ds = objGetData.GetDataSet(strQuery);
+
+                }
+                else
+                {
+                    bll = new DAL();
+                    ds = bll.GetDataSet(strQuery);
+                }
+                 
+               // ExchangeCompanySoftware.GetData.ServiceSoapClient objGetData = new ExchangeCompanySoftware.GetData.ServiceSoapClient();
+              //  objGetData.Endpoint.Address = new System.ServiceModel.EndpointAddress(General.gendPoint);
+            //    DataSet ds = objGetData.GetDataSet(strQuery);
                 return ds;
             }
             catch (Exception ex)
@@ -77,11 +93,27 @@ namespace ExchangeCompanySoftware
 
         public void ExecuteDML(string strQuery)
         {
+            DataSet ds = new DataSet();
+            DAL bll = null;
+            ExchangeCompanySoftware.GetData.ServiceSoapClient objGetData = null;
             try
             {
-                ExchangeCompanySoftware.GetData.ServiceSoapClient objGetData = new ExchangeCompanySoftware.GetData.ServiceSoapClient();
+                if (IsLocal == "0")
+            {
+                objGetData = new ExchangeCompanySoftware.GetData.ServiceSoapClient();
                 objGetData.Endpoint.Address = new System.ServiceModel.EndpointAddress(General.gendPoint);
-                objGetData.Dmlexecute(strQuery,General.gUserId,General.gPassword);
+                  objGetData.Dmlexecute(strQuery, General.gUserId, General.gPassword);
+
+                }
+            else
+            {
+                bll = new DAL();
+                bll.Dmlexecute(strQuery, General.gUserId, General.gPassword);
+                }
+           
+                //ExchangeCompanySoftware.GetData.ServiceSoapClient objGetData = new ExchangeCompanySoftware.GetData.ServiceSoapClient();
+                //objGetData.Endpoint.Address = new System.ServiceModel.EndpointAddress(General.gendPoint);
+                //objGetData.Dmlexecute(strQuery,General.gUserId,General.gPassword);
             }
             catch (Exception ex)
             {
@@ -183,15 +215,34 @@ namespace ExchangeCompanySoftware
             try
             {
                 DataSet dsMain = new DataSet();
+                 
+                DAL bll = null;
+                ExchangeCompanySoftware.GetData.ServiceSoapClient objGetData = null;
+
+               
+
                 DialogResult dr =
                             MessageBox.Show("are you sure to delete Record", "Confirmation Delete",
                      MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
                 if (Convert.ToString(dr) == "Yes")
                 {
-                    ExchangeCompanySoftware.GetData.ServiceSoapClient objGetData = new ExchangeCompanySoftware.GetData.ServiceSoapClient();
-                    objGetData.Endpoint.Address = new System.ServiceModel.EndpointAddress(General.gendPoint);
+                    if (IsLocal == "0")
+                    {
+                        objGetData = new ExchangeCompanySoftware.GetData.ServiceSoapClient();
+                        objGetData.Endpoint.Address = new System.ServiceModel.EndpointAddress(General.gendPoint);
+                        //ExchangeCompanySoftware.GetData.ServiceSoapClient objGetData = new ExchangeCompanySoftware.GetData.ServiceSoapClient();
+                        //objGetData.Endpoint.Address = new System.ServiceModel.EndpointAddress(General.gendPoint);
 
-                    dsMain = objGetData.DeleteRecord(strTableName, strCondition, General.gUserId, General.gPassword);
+                        dsMain = objGetData.DeleteRecord(strTableName, strCondition, General.gUserId, General.gPassword);
+
+                    }
+                    else
+                    {
+                        bll = new DAL();
+                        dsMain = bll.DeleteRecord(strTableName, strCondition, General.gUserId, General.gPassword);
+                    }
+
+                    
                     MessageBox.Show("Record Succesfully Delete", "Deleted",
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
@@ -561,14 +612,24 @@ namespace ExchangeCompanySoftware
         //    MessageBoxButtons.OK, MessageBoxIcon.Information);
         //    return dsMain;
         //}
-
+         
 
         public DataSet SaveRecord(string strButtonState, DataGridView grdDetail, string[] strTableName, Panel PnlMain, string strTransType, string strCondition, string strOtherRecord,bool isAuthorized = false)
         {
             DataSet ds = new DataSet();
-            ExchangeCompanySoftware.GetData.ServiceSoapClient objGetData = new ExchangeCompanySoftware.GetData.ServiceSoapClient();
-            objGetData.Endpoint.Address = new System.ServiceModel.EndpointAddress(General.gendPoint);
-       
+            DAL bll = null ;
+            ExchangeCompanySoftware.GetData.ServiceSoapClient objGetData = null;
+
+            if (IsLocal == "0")
+            {
+                objGetData = new ExchangeCompanySoftware.GetData.ServiceSoapClient();
+                objGetData.Endpoint.Address = new System.ServiceModel.EndpointAddress(General.gendPoint);
+            }
+            else
+            {
+               bll = new DAL();
+            }
+          
             DataSet dsMain = new DataSet();
             ds = CreateMasterDataDataSet(PnlMain, grdDetail, strOtherRecord);
             if (isAuthorized == true)
@@ -577,13 +638,19 @@ namespace ExchangeCompanySoftware
                 {
                     ds.Tables[0].Rows[0]["Status"] = "A";
                 }
-            }
-            //       ds.Tables[0].TableName = strTableName[0];
+            } 
+
             string strError = "";
             if (strButtonState == "ADD")
             {
-
-                dsMain = objGetData.InsertMasterRecord(ref strError, ds, strTransType, strTableName, strCondition, strPKColumn, strButtonState, strBranchCode, dtSystemDate, General.gUserId, General.gPassword);
+                if (IsLocal == "0")
+                {
+                    dsMain = objGetData.InsertMasterRecord(ref strError, ds, strTransType, strTableName, strCondition, strPKColumn, strButtonState, strBranchCode, dtSystemDate, General.gUserId, General.gPassword);
+                }
+                else
+                {
+                    dsMain = bll.InsertMasterRecord(ref strError, ds, strTransType, strTableName, strCondition, strPKColumn, strButtonState, strBranchCode, dtSystemDate, General.gUserId, General.gPassword);
+                }
                 if (strError != "OK")
                 {
                     MessageBox.Show(strError, "Saved",
@@ -592,7 +659,14 @@ namespace ExchangeCompanySoftware
             }
             else if (strButtonState == "EDIT")
             {
-                dsMain = objGetData.UpdateMasterRecord(ref strError, ds, strTableName, strCondition, General.gUserId, General.gPassword);
+                if (IsLocal == "0")
+                {
+                    dsMain = objGetData.UpdateMasterRecord(ref strError, ds, strTableName, strCondition, General.gUserId, General.gPassword);
+                }
+                else
+                {
+                    dsMain = bll.UpdateMasterRecord(ref strError, ds, strTableName, strCondition, General.gUserId, General.gPassword);
+                }
                 if (strError != "OK")
                 {
                     MessageBox.Show(strError, "Saved",

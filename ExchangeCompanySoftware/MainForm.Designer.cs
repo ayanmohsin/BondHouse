@@ -58,8 +58,7 @@
             this.mnubar.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.mnubar.Location = new System.Drawing.Point(0, 0);
             this.mnubar.Name = "mnubar";
-            this.mnubar.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
-            this.mnubar.Size = new System.Drawing.Size(1371, 30);
+            this.mnubar.Size = new System.Drawing.Size(1028, 24);
             this.mnubar.TabIndex = 0;
             this.mnubar.Text = "MenuStrip";
             this.mnubar.Visible = false;
@@ -70,7 +69,7 @@
             this.Tool.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.Tool.Location = new System.Drawing.Point(0, 0);
             this.Tool.Name = "Tool";
-            this.Tool.Size = new System.Drawing.Size(1697, 25);
+            this.Tool.Size = new System.Drawing.Size(1028, 25);
             this.Tool.TabIndex = 1;
             this.Tool.Text = "ToolStrip";
             // 
@@ -87,10 +86,9 @@
             this.toolStripStatusLabel5,
             this.toolStripSplitButton1,
             this.toolStripStatusLabel1});
-            this.statusStrip.Location = new System.Drawing.Point(0, 882);
+            this.statusStrip.Location = new System.Drawing.Point(0, 579);
             this.statusStrip.Name = "statusStrip";
-            this.statusStrip.Padding = new System.Windows.Forms.Padding(1, 0, 19, 0);
-            this.statusStrip.Size = new System.Drawing.Size(1697, 36);
+            this.statusStrip.Size = new System.Drawing.Size(1028, 30);
             this.statusStrip.TabIndex = 2;
             this.statusStrip.Text = "StatusStrip";
             // 
@@ -100,7 +98,7 @@
             this.toolStripStatusLabel2.ForeColor = System.Drawing.Color.Black;
             this.toolStripStatusLabel2.LinkColor = System.Drawing.Color.Black;
             this.toolStripStatusLabel2.Name = "toolStripStatusLabel2";
-            this.toolStripStatusLabel2.Size = new System.Drawing.Size(30, 31);
+            this.toolStripStatusLabel2.Size = new System.Drawing.Size(25, 25);
             this.toolStripStatusLabel2.Text = "Date";
             // 
             // CurrentDate
@@ -109,7 +107,7 @@
             this.CurrentDate.ForeColor = System.Drawing.Color.Black;
             this.CurrentDate.LinkColor = System.Drawing.Color.Black;
             this.CurrentDate.Name = "CurrentDate";
-            this.CurrentDate.Size = new System.Drawing.Size(221, 31);
+            this.CurrentDate.Size = new System.Drawing.Size(181, 25);
             this.CurrentDate.Text = "toolStripStatusLabel3";
             // 
             // toolStripStatusLabel3
@@ -118,7 +116,7 @@
             this.toolStripStatusLabel3.ForeColor = System.Drawing.Color.Black;
             this.toolStripStatusLabel3.LinkColor = System.Drawing.Color.Black;
             this.toolStripStatusLabel3.Name = "toolStripStatusLabel3";
-            this.toolStripStatusLabel3.Size = new System.Drawing.Size(32, 31);
+            this.toolStripStatusLabel3.Size = new System.Drawing.Size(27, 25);
             this.toolStripStatusLabel3.Text = "User";
             // 
             // userId
@@ -127,7 +125,7 @@
             this.userId.ForeColor = System.Drawing.Color.Black;
             this.userId.LinkColor = System.Drawing.Color.Black;
             this.userId.Name = "userId";
-            this.userId.Size = new System.Drawing.Size(108, 31);
+            this.userId.Size = new System.Drawing.Size(91, 25);
             this.userId.Text = "toolStripStatusLabel4";
             // 
             // toolStripStatusLabel4
@@ -135,7 +133,7 @@
             this.toolStripStatusLabel4.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolStripStatusLabel4.ForeColor = System.Drawing.Color.Navy;
             this.toolStripStatusLabel4.Name = "toolStripStatusLabel4";
-            this.toolStripStatusLabel4.Size = new System.Drawing.Size(44, 31);
+            this.toolStripStatusLabel4.Size = new System.Drawing.Size(36, 25);
             this.toolStripStatusLabel4.Text = "Branch";
             this.toolStripStatusLabel4.Visible = false;
             // 
@@ -144,7 +142,7 @@
             this.Branch.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Branch.ForeColor = System.Drawing.Color.Red;
             this.Branch.Name = "Branch";
-            this.Branch.Size = new System.Drawing.Size(108, 31);
+            this.Branch.Size = new System.Drawing.Size(91, 25);
             this.Branch.Text = "toolStripStatusLabel5";
             this.Branch.Visible = false;
             // 
@@ -154,7 +152,7 @@
             this.toolStripStatusLabel5.Font = new System.Drawing.Font("Arial Narrow", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolStripStatusLabel5.ForeColor = System.Drawing.SystemColors.ActiveCaption;
             this.toolStripStatusLabel5.Name = "toolStripStatusLabel5";
-            this.toolStripStatusLabel5.Size = new System.Drawing.Size(0, 31);
+            this.toolStripStatusLabel5.Size = new System.Drawing.Size(0, 25);
             this.toolStripStatusLabel5.Visible = false;
             // 
             // toolStripSplitButton1
@@ -165,13 +163,13 @@
             this.toolStripSplitButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripSplitButton1.Image")));
             this.toolStripSplitButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripSplitButton1.Name = "toolStripSplitButton1";
-            this.toolStripSplitButton1.Size = new System.Drawing.Size(39, 34);
+            this.toolStripSplitButton1.Size = new System.Drawing.Size(36, 28);
             this.toolStripSplitButton1.Text = "toolStripSplitButton1";
             // 
             // passwordChangeToolStripMenuItem
             // 
             this.passwordChangeToolStripMenuItem.Name = "passwordChangeToolStripMenuItem";
-            this.passwordChangeToolStripMenuItem.Size = new System.Drawing.Size(199, 26);
+            this.passwordChangeToolStripMenuItem.Size = new System.Drawing.Size(168, 22);
             this.passwordChangeToolStripMenuItem.Text = "Password Change";
             this.passwordChangeToolStripMenuItem.Click += new System.EventHandler(this.passwordChangeToolStripMenuItem_Click);
             // 
@@ -181,7 +179,7 @@
             this.toolStripStatusLabel1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.toolStripStatusLabel1.ForeColor = System.Drawing.Color.White;
             this.toolStripStatusLabel1.Name = "toolStripStatusLabel1";
-            this.toolStripStatusLabel1.Size = new System.Drawing.Size(122, 31);
+            this.toolStripStatusLabel1.Size = new System.Drawing.Size(99, 25);
             this.toolStripStatusLabel1.Text = "Cache Clear";
             this.toolStripStatusLabel1.Click += new System.EventHandler(this.toolStripStatusLabel1_Click_1);
             // 
@@ -200,10 +198,9 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(869, 331);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(962, 587);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(52, 17);
+            this.label1.Size = new System.Drawing.Size(41, 13);
             this.label1.TabIndex = 10;
             this.label1.Text = "label1";
             // 
@@ -212,20 +209,21 @@
             this.NAVCONTROL.ActiveGroup = null;
             this.NAVCONTROL.Dock = System.Windows.Forms.DockStyle.Left;
             this.NAVCONTROL.Location = new System.Drawing.Point(0, 25);
+            this.NAVCONTROL.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.NAVCONTROL.Name = "NAVCONTROL";
-            this.NAVCONTROL.OptionsNavPane.ExpandedWidth = 252;
-            this.NAVCONTROL.Size = new System.Drawing.Size(252, 857);
+            this.NAVCONTROL.OptionsNavPane.ExpandedWidth = 189;
+            this.NAVCONTROL.Size = new System.Drawing.Size(189, 554);
             this.NAVCONTROL.TabIndex = 12;
             this.NAVCONTROL.Text = "navBarControl1";
             this.NAVCONTROL.View = new DevExpress.XtraNavBar.ViewInfo.StandardSkinExplorerBarViewInfoRegistrator("Office 2013 Dark Gray");
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(1697, 918);
+            this.ClientSize = new System.Drawing.Size(1028, 609);
             this.Controls.Add(this.NAVCONTROL);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.statusStrip);
@@ -234,7 +232,6 @@
             this.DoubleBuffered = true;
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.mnubar;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MainForm";
             this.Text = "MainForm";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

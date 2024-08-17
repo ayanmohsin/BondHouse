@@ -153,6 +153,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DAL.cs" />
     <Compile Include="Dump\frmContra.cs">
       <SubType>Form</SubType>
     </Compile>

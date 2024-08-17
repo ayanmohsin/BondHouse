@@ -19,6 +19,7 @@ namespace ExchangeCompanySoftware
         Form frm;
         string pintBlink = "";
         public string BaseButtonState { get; set; }
+        public static string IsLocal = System.Configuration.ConfigurationManager.AppSettings["IsLocal"];
 
         public BaseForm()
         {
@@ -130,8 +131,13 @@ namespace ExchangeCompanySoftware
         }
         private void authorizedToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            ExchangeCompanySoftware.GetData.ServiceSoapClient objGetData = new ExchangeCompanySoftware.GetData.ServiceSoapClient();
-            objGetData.Endpoint.Address = new System.ServiceModel.EndpointAddress(General.gendPoint);
+            ExchangeCompanySoftware.GetData.ServiceSoapClient objGetData = null;
+            if (IsLocal == "0")
+            {
+                objGetData = new ExchangeCompanySoftware.GetData.ServiceSoapClient();
+                objGetData.Endpoint.Address = new System.ServiceModel.EndpointAddress(General.gendPoint);
+            }
+
             General cls = new General();
             DialogResult dr =
              MessageBox.Show("are you sure to Authorized That Record", "Confirmation Authorized",

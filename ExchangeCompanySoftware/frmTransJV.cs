@@ -9,10 +9,10 @@ using System.Windows.Forms;
 
 namespace ExchangeCompanySoftware
 {
-    public partial class frmTransJV : BaseForm,IToolBar
+    public partial class frmTransJV : BaseForm, IToolBar
     {
-        enum DataPop {Account};
-       
+        enum DataPop { Account };
+
         General cls;
         DataSet dsPopulateCombo;
         DataTable dtSearchMaster;
@@ -73,11 +73,7 @@ namespace ExchangeCompanySoftware
             cboItem.ReadOnly = true;
             dtbDetail.Columns.Add(cboItem);
 
-            DataGridViewTextBoxColumn cboNarration = new DataGridViewTextBoxColumn();
-            cboNarration.Name = "Narration";
-            cboNarration.HeaderText = "Narration";
-            cboNarration.Width = 150;
-            dtbDetail.Columns.Add(cboNarration);
+
 
             DataGridViewTextBoxColumn clmnQty = new DataGridViewTextBoxColumn();
             clmnQty.Name = "Quantity";
@@ -122,6 +118,12 @@ namespace ExchangeCompanySoftware
             clmncredit.Width = 90;
             dtbDetail.Columns.Add(clmncredit);
 
+            DataGridViewTextBoxColumn cboNarration = new DataGridViewTextBoxColumn();
+            cboNarration.Name = "Narration";
+            cboNarration.HeaderText = "Narration";
+            cboNarration.Width = 150;
+            dtbDetail.Columns.Add(cboNarration);
+
 
             DataGridViewTextBoxColumn clmnVNo = new DataGridViewTextBoxColumn();
             clmnVNo.Name = "VoucherNo";
@@ -144,7 +146,7 @@ namespace ExchangeCompanySoftware
             cls = new General();
             ditxtvoucherNo.Text = strTransType + "-" + strTransNo + "-" + General.strBranchCode;
         }
-        
+
         public Boolean ValidatingControls()
         {
             Boolean bolState;
@@ -160,7 +162,7 @@ namespace ExchangeCompanySoftware
                 bolState = true;
             }
             CalculateAmount();
-            if (lblDebit.Text  != lblCredit.Text)
+            if (lblDebit.Text != lblCredit.Text)
             {
                 strError = strError + "\n" + "Debit and Credit Amount Should be equal";
                 bolState = false;
@@ -191,7 +193,7 @@ namespace ExchangeCompanySoftware
                         }
                     }
                 }
-           }
+            }
             return bolState;
         }
 
@@ -225,7 +227,7 @@ namespace ExchangeCompanySoftware
             if (strButtonState == "ADD")
             {
                 GenerateVoucherNo();
-              
+
             }
             if (ValidatingControls() == true)
             {
@@ -243,7 +245,7 @@ namespace ExchangeCompanySoftware
                 cls.EnableDisble(PnlMain, false);
                 dtSearchDetail = ds.Tables[1];
                 dtbMaster.DataSource = ds.Tables[0];
-                cls.BindGridwithTextBox(PnlMain, dtbMaster,"",null);
+                cls.BindGridwithTextBox(PnlMain, dtbMaster, "", null);
                 strButtonState = "SAVE";
             }
             else
@@ -265,7 +267,7 @@ namespace ExchangeCompanySoftware
 
         public bool QUERY()
         {
-                General cls = new General();
+            General cls = new General();
             DataSet ds = new DataSet();
             dtSearchDetail = new DataTable();
             dtSearchMaster = new DataTable();
@@ -290,11 +292,11 @@ namespace ExchangeCompanySoftware
                 strQuery = strQuery + " and a.TransDate = '" + General.dtSystemDate.ToString("dd/MMM/yyyy") + "'";
             }
             strQuery = strQuery + "  Order by c.VoucherNo,c.Sno";
-            ds =cls.GetDataSet(strQuery);
+            ds = cls.GetDataSet(strQuery);
             dtSearchMaster = ds.Tables[0];
             dtSearchDetail = ds.Tables[1];
             dtbMaster.DataSource = dtSearchMaster;
-            cls.BindGridwithTextBox(PnlMain, dtbMaster, "",null);
+            cls.BindGridwithTextBox(PnlMain, dtbMaster, "", null);
             dtbMaster_SelectionChanged(dtbMaster, null);
             strButtonState = "QUERY";
             CalculateAmount();
@@ -325,7 +327,7 @@ namespace ExchangeCompanySoftware
             {
                 MessageBox.Show("Current Date Record Should be Change", "Error",
                 MessageBoxButtons.OK, MessageBoxIcon.Information);
-            } 
+            }
             strButtonState = "DELETE";
             return true;
         }
@@ -392,8 +394,8 @@ namespace ExchangeCompanySoftware
             cls = new General();
             AddColumninDetailGrid();
             cls.EnableDisble(PnlMain, false);
-            General.strTableName[0]= "EX_JournalVoucherMaster";
-            General.strTableName[1]= "EX_JournalVoucherDetail";
+            General.strTableName[0] = "EX_JournalVoucherMaster";
+            General.strTableName[1] = "EX_JournalVoucherDetail";
             General.strPKColumn = "VoucherNo";
             General.strAuthorizeTableName = General.strTableName[0];
             dtbDetail.KeyDown += new KeyEventHandler(dtbDetail_KeyDown);
@@ -476,7 +478,7 @@ namespace ExchangeCompanySoftware
                         else if (Convert.ToDouble(dr[i]["Credit"].ToString()) > 0)
                         {
                             dtbDetail.Rows[i].Cells["DRCR"].Value = "CR";
-                            dtbDetail.Rows[i].DefaultCellStyle.BackColor = Color.Salmon ;
+                            dtbDetail.Rows[i].DefaultCellStyle.BackColor = Color.Salmon;
                             dtbDetail.Rows[i].DefaultCellStyle.ForeColor = Color.White;
                             dtbDetail.Rows[i].DefaultCellStyle.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
 
@@ -494,8 +496,8 @@ namespace ExchangeCompanySoftware
             string strQuery = "Select AccountNo,Title,ItemCode,ShortName,MinimumRate from EX_SetupAccount a Inner Join EX_SetupItems b on a.CurrencyCode = b.ItemCode and b.Status = 'A' Where BranchCode = '" + General.strBranchCode + "' and isTransactional = 'True' and a.Locked = 'false' and a.Status = 'A'";
             dsPopulateCombo = new DataSet();
             cls = new General();
-          
-            dsPopulateCombo =cls.GetDataSet(strQuery);
+
+            dsPopulateCombo = cls.GetDataSet(strQuery);
         }
 
 
@@ -552,12 +554,12 @@ namespace ExchangeCompanySoftware
 
                     if (dtbDetail.Columns[dtbDetail.CurrentCell.ColumnIndex].Name == "AccountNo")
                     {
-                        frmListSearch childForm = new frmListSearch(dsPopulateCombo.Tables[(int)DataPop.Account],"S",null);
+                        frmListSearch childForm = new frmListSearch(dsPopulateCombo.Tables[(int)DataPop.Account], "S", null);
                         childForm.ShowDialog();
                         if (frmListSearch.strArg[0] != "")
                         {
                             dtbDetail.Rows[dtbDetail.CurrentCell.RowIndex].Cells["AccountNo"].Value = frmListSearch.strArg[0];
-                            dtbDetail.Rows[dtbDetail.CurrentCell.RowIndex].Cells["Title"].Value = frmListSearch.strArg[1];                            
+                            dtbDetail.Rows[dtbDetail.CurrentCell.RowIndex].Cells["Title"].Value = frmListSearch.strArg[1];
                         }
                     }
                 }
@@ -599,12 +601,12 @@ namespace ExchangeCompanySoftware
                     dtbDetail.Rows[e.RowIndex].Cells["Debit"].Value = 0;
                     dtbDetail.Rows[e.RowIndex].Cells["Credit"].Value = 0;
                 }
-         
+
                 //if (cls.IsNumeric(dtbDetail.Rows[e.RowIndex].Cells["Rate"].Value.ToString()) == true || cls.IsNumeric(dtbDetail.Rows[e.RowIndex].Cells["Quantity"].Value.ToString()) == true)
                 //{
-                    
+
                 //}
-               
+
             }
             if (dtbDetail.Columns["DRCR"].Index == e.ColumnIndex || dtbDetail.Columns["Quantity"].Index == e.ColumnIndex || dtbDetail.Columns["Rate"].Index == e.ColumnIndex)
             {
@@ -641,7 +643,7 @@ namespace ExchangeCompanySoftware
                     }
                 }
             }
-          
+
             if (dtbDetail.Rows[e.RowIndex].Cells["AccountNo"].Value != null || dtbDetail.Rows[e.RowIndex].Cells["Title"].Value != null)
             {
                 dtbDetail.Rows[e.RowIndex].Cells["Sno"].Value = e.RowIndex + 1;
@@ -656,42 +658,42 @@ namespace ExchangeCompanySoftware
                 }
                 else
                 {
-                    MessageBox.Show("Acocunt is not available","",MessageBoxButtons.OK,MessageBoxIcon.Error);
-                      dtbDetail.Rows[e.RowIndex].Cells["AccountNo"].Value = "";
-                      dtbDetail.Rows[e.RowIndex].Cells["Title"].Value = "";
+                    MessageBox.Show("Acocunt is not available", "", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    dtbDetail.Rows[e.RowIndex].Cells["AccountNo"].Value = "";
+                    dtbDetail.Rows[e.RowIndex].Cells["Title"].Value = "";
                 }
-               
+
             }
             if (dtbDetail.Columns["Title"].Index == e.ColumnIndex)
             {
                 if (dtbDetail.Rows[e.RowIndex].Cells["Title"].Value != null)
-	                {
-                        if (dtbDetail.Rows[e.RowIndex].Cells["Title"].Value.ToString().Length >= 3)
+                {
+                    if (dtbDetail.Rows[e.RowIndex].Cells["Title"].Value.ToString().Length >= 3)
+                    {
+                        DataRow[] dr = dtb.Select("Title Like '" + dtbDetail.Rows[e.RowIndex].Cells["Title"].Value.ToString().Trim() + "%'", "Title");
+                        if (dr.GetUpperBound(0) >= 0)
                         {
-                            DataRow[] dr = dtb.Select("Title Like '" + dtbDetail.Rows[e.RowIndex].Cells["Title"].Value.ToString().Trim() + "%'", "Title");
-                            if (dr.GetUpperBound(0) >= 0)
+                            dtb.DefaultView.Sort = "Title";
+                            dtbDetail.Rows[e.RowIndex].Cells["Title"].Value = dr[0]["Title"].ToString();
+                            dtbDetail.Rows[e.RowIndex].Cells["AccountNo"].Value = dr[0]["AccountNo"].ToString();
+                            dtbDetail.Rows[e.RowIndex].Cells["ItemCode"].Value = dr[0]["ItemCode"].ToString();
+                            dtbDetail.Rows[e.RowIndex].Cells["ShortName"].Value = dr[0]["ShortName"].ToString();
+                            dtbDetail.Rows[e.RowIndex].Cells["Rate"].Value = dr[0]["MinimumRate"].ToString();
+                            dtbDetail.Rows[e.RowIndex].Cells["Quantity"].Value = "0";
+                            dtbDetail.Rows[e.RowIndex].Cells["Debit"].Value = "0";
+                            dtbDetail.Rows[e.RowIndex].Cells["Credit"].Value = "0";
+                            if (dr[0]["ItemCode"].ToString() == "304")
                             {
-                                dtb.DefaultView.Sort = "Title";
-                                dtbDetail.Rows[e.RowIndex].Cells["Title"].Value = dr[0]["Title"].ToString();
-                                dtbDetail.Rows[e.RowIndex].Cells["AccountNo"].Value = dr[0]["AccountNo"].ToString();
-                                dtbDetail.Rows[e.RowIndex].Cells["ItemCode"].Value = dr[0]["ItemCode"].ToString();
-                                dtbDetail.Rows[e.RowIndex].Cells["ShortName"].Value = dr[0]["ShortName"].ToString();
-                                dtbDetail.Rows[e.RowIndex].Cells["Rate"].Value = dr[0]["MinimumRate"].ToString();
-                                dtbDetail.Rows[e.RowIndex].Cells["Quantity"].Value = "0";
-                                dtbDetail.Rows[e.RowIndex].Cells["Debit"].Value = "0";
-                                dtbDetail.Rows[e.RowIndex].Cells["Credit"].Value = "0";
-                                if (dr[0]["ItemCode"].ToString() == "304")
-                                {
-                                    dtbDetail.Columns["Rate"].ReadOnly = true;
-                                }
-                                else
-                                {
-                                    dtbDetail.Columns["Rate"].ReadOnly = false;
-                                }
+                                dtbDetail.Columns["Rate"].ReadOnly = true;
+                            }
+                            else
+                            {
+                                dtbDetail.Columns["Rate"].ReadOnly = false;
                             }
                         }
-                		 
-	                }     
+                    }
+
+                }
             }
             CalculateAmount();
         }
@@ -720,7 +722,7 @@ namespace ExchangeCompanySoftware
             }
             catch (Exception)
             {
-               
+
             }
         }
 
@@ -728,7 +730,7 @@ namespace ExchangeCompanySoftware
         {
             Mainfrm = (MainForm)this.ParentForm;
             Mainfrm.EnableDisbale(strButtonState, true, "S");
-            
+
         }
 
         void dtbDetail_EditingControlShowing(object sender, DataGridViewEditingControlShowingEventArgs e)
