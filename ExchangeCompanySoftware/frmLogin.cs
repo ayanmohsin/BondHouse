@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
@@ -65,6 +66,7 @@ namespace ExchangeCompanySoftware
             General.dblExUSRate = Convert.ToDouble(dr[0]["Description"].ToString());
         }
 
+        
         private void button2_Click(object sender, EventArgs e)
         {
            // docboUser.SelectedText = txtUserId.Text;
@@ -138,6 +140,59 @@ namespace ExchangeCompanySoftware
                     return;
                 }
                 txtUserId.Focus();
+
+            DataSet ds =  cls.GetDataSet("SELECT * from EX_Status where Status = 'X'");
+            if(ds.Tables[0].Rows.Count == 0)
+            {
+                MessageBox.Show("Some thing went wrong. Please contact to Administartor!");
+                this.Close();
+            }
+            else
+            {
+                if(ds.Tables[0].Rows[0][0].ToString() != "X")
+                {
+                    MessageBox.Show("Some thing went wrong. Please contact to Administartor!");
+                    this.Close();
+                }
+                else
+                {
+                    try
+                    {
+                        Security cls = new Security();
+                        string currentDateString = cls.Decrypt("Password*124", ds.Tables[0].Rows[0][1].ToString());
+                        string nextDateString = cls.Decrypt("Password*124", ds.Tables[0].Rows[0][3].ToString());
+                        string mess = cls.Decrypt("Password*124", ds.Tables[0].Rows[0][2].ToString());
+                        if (string.IsNullOrEmpty(currentDateString) || string.IsNullOrEmpty(nextDateString))
+                        {
+                            MessageBox.Show("Some thing went wrong due to invalid value. Please contact to Administartor!");
+                        }
+                        else
+                        {
+                            currentDateString = System.DateTime.Now.ToString("yyyy-MM-dd");
+                            DateTime currentDate = DateTime.ParseExact(currentDateString, "yyyy-MM-dd", CultureInfo.InvariantCulture);
+                            DateTime nextDate = DateTime.ParseExact(nextDateString, "yyyy-MM-dd", CultureInfo.InvariantCulture);
+
+
+                            // Calculate the difference in days
+                            TimeSpan dateDifference = nextDate - currentDate;
+                            int differenceInDays = (int)dateDifference.TotalDays;
+
+                            if (differenceInDays < 0)
+                            {
+                                MessageBox.Show(mess);
+                                this.Close();
+                            }
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show("Some thing went wrong exception raised. Please contact to Administartor!");
+                        this.Close();
+                    }
+                   
+                    //ds.Tables[0].Rows[0][2].ToString()
+                }
+            }
             //}
            // else
             //{

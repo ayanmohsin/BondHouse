@@ -37,8 +37,8 @@ namespace ExchangeCompanySoftware
             progressBar1.Minimum = 0;
             label1.Text = "Sale Transactions Process " + dtb.Rows.Count;
             Application.DoEvents();
-            ExchangeCompanySoftware.GetData.ServiceSoapClient objGetData = new ExchangeCompanySoftware.GetData.ServiceSoapClient();
-            objGetData.Endpoint.Address = new System.ServiceModel.EndpointAddress(General.gendPoint);
+            //ExchangeCompanySoftware.GetData.ServiceSoapClient objGetData = new ExchangeCompanySoftware.GetData.ServiceSoapClient();
+            //objGetData.Endpoint.Address = new System.ServiceModel.EndpointAddress(General.gendPoint);
             for (int i = 0; i < dtb.Rows.Count; i++)
             {
                 strQuery = "Delete From EX_PrsTransactions Where VoucherNo = '" + dtb.Rows[i]["VoucherNo"].ToString() + "' and BranchCode = '" + General.strBranchCode + "'";

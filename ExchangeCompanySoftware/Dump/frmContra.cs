@@ -147,17 +147,30 @@ namespace ExchangeCompanySoftware
 
         public bool DELETE()
         {
-            ExchangeCompanySoftware.GetData.ServiceSoapClient objGetData = new ExchangeCompanySoftware.GetData.ServiceSoapClient();
-            objGetData.Endpoint.Address = new System.ServiceModel.EndpointAddress(General.gendPoint);
-            strCondition = "Where VoucherNo = '" + ditxtVoucherNo.Text + "' and BranchCode = '" + General.strBranchCode + "'";
-                General cls = new General();
-            objGetData.DeleteRecord(General.strTableName,strCondition, General.gUserId, General.gPassword);
-
-            MessageBox.Show("Record Succesfully Delete", "Deleted",
-            MessageBoxButtons.OK, MessageBoxIcon.Information);
-
+            cls = new General();
+            strCondition = "Where VoucherNo = '" + ditxtVoucherNo.Text + "' And BranchCode = '" + General.strBranchCode + "'";
+            if (General.dtSystemDate == dtDate.Value)
+            {
+                cls.DeleteRecord(General.strTableName, strCondition);
+            }
+            else
+            {
+                MessageBox.Show("Current Date Record Should be Change", "Error",
+                MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
             strButtonState = "DELETE";
             return true;
+            //ExchangeCompanySoftware.GetData.ServiceSoapClient objGetData = new ExchangeCompanySoftware.GetData.ServiceSoapClient();
+            //objGetData.Endpoint.Address = new System.ServiceModel.EndpointAddress(General.gendPoint);
+            //strCondition = "Where VoucherNo = '" + ditxtVoucherNo.Text + "' and BranchCode = '" + General.strBranchCode + "'";
+            //    General cls = new General();
+            //objGetData.DeleteRecord(General.strTableName,strCondition, General.gUserId, General.gPassword);
+
+            //MessageBox.Show("Record Succesfully Delete", "Deleted",
+            //MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            //strButtonState = "DELETE";
+            //return true;
         }
 
         public bool NEXT()
