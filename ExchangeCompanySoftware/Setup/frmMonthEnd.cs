@@ -101,7 +101,6 @@ namespace ExchangeCompanySoftware
                 {
                      string strQuery = "Exec sp_MonthEnd '" + dttoDate.Value.ToString("dd/MMM/yyyy") + "','" + General.strBranchCode + "','" + ditxtRemarks.Text + " Closing for the Month "+ dttoDate.Value.ToString("yyyy-MMM") + "'";
                      cls.ExecuteDML(strQuery);
-
                     MessageBox.Show("Month End Executed Successfully", "Execute",
                     MessageBoxButtons.OK, MessageBoxIcon.Information);
                     Application.Exit();
