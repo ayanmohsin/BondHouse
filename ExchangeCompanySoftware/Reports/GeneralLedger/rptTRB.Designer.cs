@@ -152,6 +152,8 @@ namespace ExchangeCompanySoftware.Reports
             this.xrTableCell19.BackColor = System.Drawing.Color.Transparent;
             this.xrTableCell19.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
             new DevExpress.XtraReports.UI.XRBinding("Text", null, "TrialBalance.ShortName")});
+            this.xrTableCell19.FormattingRules.Add(this.formattingRule1);
+            this.xrTableCell19.FormattingRules.Add(this.formattingRule2);
             this.xrTableCell19.Name = "xrTableCell19";
             this.xrTableCell19.StylePriority.UseBackColor = false;
             this.xrTableCell19.StylePriority.UseTextAlignment = false;
@@ -182,6 +184,8 @@ namespace ExchangeCompanySoftware.Reports
             this.xrTableCell29.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
             new DevExpress.XtraReports.UI.XRBinding("Text", null, "TrialBalance.Credit", "{0:n2}")});
             this.xrTableCell29.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            this.xrTableCell29.FormattingRules.Add(this.formattingRule1);
+            this.xrTableCell29.FormattingRules.Add(this.formattingRule2);
             this.xrTableCell29.Name = "xrTableCell29";
             this.xrTableCell29.StylePriority.UseBackColor = false;
             this.xrTableCell29.StylePriority.UseFont = false;
@@ -197,6 +201,8 @@ namespace ExchangeCompanySoftware.Reports
             this.xrTableCell16.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
             new DevExpress.XtraReports.UI.XRBinding("Text", null, "TrialBalance.ClDebit", "{0:#,0.00;(#,#);0}")});
             this.xrTableCell16.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrTableCell16.FormattingRules.Add(this.formattingRule1);
+            this.xrTableCell16.FormattingRules.Add(this.formattingRule2);
             this.xrTableCell16.Name = "xrTableCell16";
             this.xrTableCell16.StylePriority.UseBackColor = false;
             this.xrTableCell16.StylePriority.UseBorderColor = false;
@@ -213,6 +219,8 @@ namespace ExchangeCompanySoftware.Reports
             this.xrTableCell15.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
             new DevExpress.XtraReports.UI.XRBinding("Text", null, "TrialBalance.CLCredit", "{0:n2}")});
             this.xrTableCell15.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrTableCell15.FormattingRules.Add(this.formattingRule1);
+            this.xrTableCell15.FormattingRules.Add(this.formattingRule2);
             this.xrTableCell15.Name = "xrTableCell15";
             this.xrTableCell15.StylePriority.UseBackColor = false;
             this.xrTableCell15.StylePriority.UseBorderColor = false;
@@ -265,19 +273,31 @@ namespace ExchangeCompanySoftware.Reports
             // 
             // xrTableCell1
             // 
+            this.xrTableCell1.BackColor = System.Drawing.Color.Gray;
+            this.xrTableCell1.ForeColor = System.Drawing.Color.White;
             this.xrTableCell1.Name = "xrTableCell1";
+            this.xrTableCell1.StylePriority.UseBackColor = false;
+            this.xrTableCell1.StylePriority.UseForeColor = false;
             this.xrTableCell1.Text = "ACCOUNT";
             this.xrTableCell1.Weight = 0.56721428999809687D;
             // 
             // xrTableCell24
             // 
+            this.xrTableCell24.BackColor = System.Drawing.Color.Gray;
+            this.xrTableCell24.ForeColor = System.Drawing.Color.White;
             this.xrTableCell24.Name = "xrTableCell24";
+            this.xrTableCell24.StylePriority.UseBackColor = false;
+            this.xrTableCell24.StylePriority.UseForeColor = false;
             this.xrTableCell24.Text = "TRANSACTIONS";
             this.xrTableCell24.Weight = 0.24493405749787989D;
             // 
             // xrTableCell3
             // 
+            this.xrTableCell3.BackColor = System.Drawing.Color.Gray;
+            this.xrTableCell3.ForeColor = System.Drawing.Color.White;
             this.xrTableCell3.Name = "xrTableCell3";
+            this.xrTableCell3.StylePriority.UseBackColor = false;
+            this.xrTableCell3.StylePriority.UseForeColor = false;
             this.xrTableCell3.Text = "CLOSING";
             this.xrTableCell3.Weight = 0.22850112624704946D;
             // 
@@ -295,7 +315,11 @@ namespace ExchangeCompanySoftware.Reports
             // 
             // xrTableCell7
             // 
+            this.xrTableCell7.BackColor = System.Drawing.Color.Gray;
+            this.xrTableCell7.ForeColor = System.Drawing.Color.White;
             this.xrTableCell7.Name = "xrTableCell7";
+            this.xrTableCell7.StylePriority.UseBackColor = false;
+            this.xrTableCell7.StylePriority.UseForeColor = false;
             this.xrTableCell7.StylePriority.UseTextAlignment = false;
             this.xrTableCell7.Text = "NAME";
             this.xrTableCell7.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
@@ -303,7 +327,11 @@ namespace ExchangeCompanySoftware.Reports
             // 
             // xrTableCell4
             // 
+            this.xrTableCell4.BackColor = System.Drawing.Color.Gray;
+            this.xrTableCell4.ForeColor = System.Drawing.Color.White;
             this.xrTableCell4.Name = "xrTableCell4";
+            this.xrTableCell4.StylePriority.UseBackColor = false;
+            this.xrTableCell4.StylePriority.UseForeColor = false;
             this.xrTableCell4.StylePriority.UseTextAlignment = false;
             this.xrTableCell4.Text = "CURR";
             this.xrTableCell4.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
@@ -311,7 +339,11 @@ namespace ExchangeCompanySoftware.Reports
             // 
             // xrTableCell28
             // 
+            this.xrTableCell28.BackColor = System.Drawing.Color.Gray;
+            this.xrTableCell28.ForeColor = System.Drawing.Color.White;
             this.xrTableCell28.Name = "xrTableCell28";
+            this.xrTableCell28.StylePriority.UseBackColor = false;
+            this.xrTableCell28.StylePriority.UseForeColor = false;
             this.xrTableCell28.StylePriority.UseTextAlignment = false;
             this.xrTableCell28.Text = "DR";
             this.xrTableCell28.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
@@ -319,7 +351,11 @@ namespace ExchangeCompanySoftware.Reports
             // 
             // xrTableCell27
             // 
+            this.xrTableCell27.BackColor = System.Drawing.Color.Gray;
+            this.xrTableCell27.ForeColor = System.Drawing.Color.White;
             this.xrTableCell27.Name = "xrTableCell27";
+            this.xrTableCell27.StylePriority.UseBackColor = false;
+            this.xrTableCell27.StylePriority.UseForeColor = false;
             this.xrTableCell27.StylePriority.UseTextAlignment = false;
             this.xrTableCell27.Text = "CR";
             this.xrTableCell27.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
@@ -327,7 +363,11 @@ namespace ExchangeCompanySoftware.Reports
             // 
             // xrTableCell9
             // 
+            this.xrTableCell9.BackColor = System.Drawing.Color.Gray;
+            this.xrTableCell9.ForeColor = System.Drawing.Color.White;
             this.xrTableCell9.Name = "xrTableCell9";
+            this.xrTableCell9.StylePriority.UseBackColor = false;
+            this.xrTableCell9.StylePriority.UseForeColor = false;
             this.xrTableCell9.StylePriority.UseTextAlignment = false;
             this.xrTableCell9.Text = "DR";
             this.xrTableCell9.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
@@ -335,7 +375,11 @@ namespace ExchangeCompanySoftware.Reports
             // 
             // xrTableCell6
             // 
+            this.xrTableCell6.BackColor = System.Drawing.Color.Gray;
+            this.xrTableCell6.ForeColor = System.Drawing.Color.White;
             this.xrTableCell6.Name = "xrTableCell6";
+            this.xrTableCell6.StylePriority.UseBackColor = false;
+            this.xrTableCell6.StylePriority.UseForeColor = false;
             this.xrTableCell6.StylePriority.UseTextAlignment = false;
             this.xrTableCell6.Text = "CR";
             this.xrTableCell6.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
