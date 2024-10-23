@@ -162,7 +162,7 @@ namespace ExchangeCompanySoftware
                 //}
                 //else
                 //{
-
+                strBranch = General.strBranchCode;
                 DateTime dt = Convert.ToDateTime(dtSystemDate.Value);
                 strQuery2 = " Select ";
                 strQuery2 = strQuery2 + " b.Title,ItemName,BranchName,";

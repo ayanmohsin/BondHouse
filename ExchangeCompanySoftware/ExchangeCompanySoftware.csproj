@@ -84,7 +84,7 @@
     <GenerateManifests>true</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="DevExpress.Printing.v13.1.Core, Version=13.1.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
@@ -567,6 +567,18 @@
       <DependentUpon>rptRemiteceSummary.cs</DependentUpon>
     </Compile>
     <Compile Include="Security.cs" />
+    <Compile Include="Setup\frmDatabaseBK.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Setup\frmDatabaseBK.Designer.cs">
+      <DependentUpon>frmDatabaseBK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Setup\frmMonthEnd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Setup\frmMonthEnd.Designer.cs">
+      <DependentUpon>frmMonthEnd.cs</DependentUpon>
+    </Compile>
     <Compile Include="Setup\frmMostWanted.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -864,6 +876,12 @@
     <EmbeddedResource Include="Reports\Tickets\rptPrePrinted.resx">
       <DependentUpon>rptPrePrinted.cs</DependentUpon>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setup\frmDatabaseBK.resx">
+      <DependentUpon>frmDatabaseBK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Setup\frmMonthEnd.resx">
+      <DependentUpon>frmMonthEnd.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Setup\frmMostWanted.resx">
       <DependentUpon>frmMostWanted.cs</DependentUpon>

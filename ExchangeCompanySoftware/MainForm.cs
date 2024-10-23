@@ -640,16 +640,12 @@ namespace ExchangeCompanySoftware
         }
 
         private Form Returnforms(string pstrFromname)
-        {
-
+        { 
             String Fullname = "ExchangeCompanySoftware" + "." + pstrFromname;
             return (Form)Activator.CreateInstance(Type.GetType(Fullname, true, true));
 
             // }
-
-
-
-
+              
         }
         
         public MainForm(string strFromDate, string strToDate,string strUserId,string strBranch)
