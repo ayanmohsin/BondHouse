@@ -34,6 +34,8 @@ namespace ExchangeCompanySoftware.Reports
             this.xrTable2 = new DevExpress.XtraReports.UI.XRTable();
             this.xrTableRow3 = new DevExpress.XtraReports.UI.XRTableRow();
             this.xrTableCell23 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.formattingRule1 = new DevExpress.XtraReports.UI.FormattingRule();
+            this.formattingRule2 = new DevExpress.XtraReports.UI.FormattingRule();
             this.xrTableCell19 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell30 = new DevExpress.XtraReports.UI.XRTableCell();
             this.xrTableCell16 = new DevExpress.XtraReports.UI.XRTableCell();
@@ -75,8 +77,8 @@ namespace ExchangeCompanySoftware.Reports
             this.GroupHeader2 = new DevExpress.XtraReports.UI.GroupHeaderBand();
             this.xrLabel1 = new DevExpress.XtraReports.UI.XRLabel();
             this.GroupHeader3 = new DevExpress.XtraReports.UI.GroupHeaderBand();
-            this.formattingRule1 = new DevExpress.XtraReports.UI.FormattingRule();
-            this.formattingRule2 = new DevExpress.XtraReports.UI.FormattingRule();
+            this.xrTableCell2 = new DevExpress.XtraReports.UI.XRTableCell();
+            this.xrTableCell5 = new DevExpress.XtraReports.UI.XRTableCell();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xrTable1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.reportxsd1)).BeginInit();
@@ -121,6 +123,7 @@ namespace ExchangeCompanySoftware.Reports
             this.xrTableCell23,
             this.xrTableCell19,
             this.xrTableCell30,
+            this.xrTableCell5,
             this.xrTableCell16,
             this.xrTableCell15});
             this.xrTableRow3.Name = "xrTableRow3";
@@ -140,6 +143,24 @@ namespace ExchangeCompanySoftware.Reports
             this.xrTableCell23.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleLeft;
             this.xrTableCell23.Weight = 0.28891055059187265D;
             // 
+            // formattingRule1
+            // 
+            this.formattingRule1.Condition = "[ClDebit] > 0 ";
+            // 
+            // 
+            // 
+            this.formattingRule1.Formatting.ForeColor = System.Drawing.Color.Blue;
+            this.formattingRule1.Name = "formattingRule1";
+            // 
+            // formattingRule2
+            // 
+            this.formattingRule2.Condition = "[CLCredit] < 0 ";
+            // 
+            // 
+            // 
+            this.formattingRule2.Formatting.ForeColor = System.Drawing.Color.Red;
+            this.formattingRule2.Name = "formattingRule2";
+            // 
             // xrTableCell19
             // 
             this.xrTableCell19.BackColor = System.Drawing.Color.Transparent;
@@ -152,15 +173,15 @@ namespace ExchangeCompanySoftware.Reports
             this.xrTableCell19.StylePriority.UseTextAlignment = false;
             this.xrTableCell19.Text = "xrTableCell19";
             this.xrTableCell19.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
-            this.xrTableCell19.Weight = 0.20584167546694662D;
+            this.xrTableCell19.Weight = 0.14326718432161992D;
             this.xrTableCell19.AfterPrint += new System.EventHandler(this.xrTableCell19_AfterPrint);
             // 
             // xrTableCell30
             // 
             this.xrTableCell30.BackColor = System.Drawing.Color.WhiteSmoke;
             this.xrTableCell30.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
-            new DevExpress.XtraReports.UI.XRBinding("Text", null, "TrialBalance.Debit", "{0:n2}")});
-            this.xrTableCell30.Font = new System.Drawing.Font("Tahoma", 8.25F);
+            new DevExpress.XtraReports.UI.XRBinding("Text", null, "TrialBalance.Rate", "{0:n2}")});
+            this.xrTableCell30.Font = new System.Drawing.Font("Tahoma", 9.75F);
             this.xrTableCell30.FormattingRules.Add(this.formattingRule1);
             this.xrTableCell30.FormattingRules.Add(this.formattingRule2);
             this.xrTableCell30.Name = "xrTableCell30";
@@ -169,7 +190,7 @@ namespace ExchangeCompanySoftware.Reports
             this.xrTableCell30.StylePriority.UseTextAlignment = false;
             this.xrTableCell30.Text = "xrTableCell30";
             this.xrTableCell30.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
-            this.xrTableCell30.Weight = 0.11981641184612146D;
+            this.xrTableCell30.Weight = 0.091195451495724084D;
             // 
             // xrTableCell16
             // 
@@ -177,7 +198,7 @@ namespace ExchangeCompanySoftware.Reports
             this.xrTableCell16.BorderColor = System.Drawing.Color.DarkGray;
             this.xrTableCell16.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
             new DevExpress.XtraReports.UI.XRBinding("Text", null, "TrialBalance.ClDebit", "{0:#,0.00;(#,#);0}")});
-            this.xrTableCell16.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrTableCell16.Font = new System.Drawing.Font("Tahoma", 9.75F);
             this.xrTableCell16.FormattingRules.Add(this.formattingRule1);
             this.xrTableCell16.FormattingRules.Add(this.formattingRule2);
             this.xrTableCell16.Name = "xrTableCell16";
@@ -195,7 +216,7 @@ namespace ExchangeCompanySoftware.Reports
             this.xrTableCell15.BorderColor = System.Drawing.Color.DarkGray;
             this.xrTableCell15.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
             new DevExpress.XtraReports.UI.XRBinding("Text", null, "TrialBalance.CLCredit", "{0:n2}")});
-            this.xrTableCell15.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.xrTableCell15.Font = new System.Drawing.Font("Tahoma", 9.75F);
             this.xrTableCell15.FormattingRules.Add(this.formattingRule1);
             this.xrTableCell15.FormattingRules.Add(this.formattingRule2);
             this.xrTableCell15.Name = "xrTableCell15";
@@ -256,7 +277,7 @@ namespace ExchangeCompanySoftware.Reports
             this.xrTableCell1.StylePriority.UseBackColor = false;
             this.xrTableCell1.StylePriority.UseForeColor = false;
             this.xrTableCell1.Text = "ACCOUNT";
-            this.xrTableCell1.Weight = 0.56721428999809687D;
+            this.xrTableCell1.Weight = 0.49580356259336245D;
             // 
             // xrTableCell24
             // 
@@ -265,7 +286,7 @@ namespace ExchangeCompanySoftware.Reports
             this.xrTableCell24.Name = "xrTableCell24";
             this.xrTableCell24.StylePriority.UseBackColor = false;
             this.xrTableCell24.StylePriority.UseForeColor = false;
-            this.xrTableCell24.Weight = 0.13673595205272165D;
+            this.xrTableCell24.Weight = 0.20814667945745607D;
             // 
             // xrTableCell3
             // 
@@ -283,6 +304,7 @@ namespace ExchangeCompanySoftware.Reports
             this.xrTableCell7,
             this.xrTableCell4,
             this.xrTableCell28,
+            this.xrTableCell2,
             this.xrTableCell9,
             this.xrTableCell6});
             this.xrTableRow2.Name = "xrTableRow2";
@@ -310,7 +332,7 @@ namespace ExchangeCompanySoftware.Reports
             this.xrTableCell4.StylePriority.UseTextAlignment = false;
             this.xrTableCell4.Text = "CURR";
             this.xrTableCell4.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
-            this.xrTableCell4.Weight = 0.23490909847541946D;
+            this.xrTableCell4.Weight = 0.16349833144734571D;
             // 
             // xrTableCell28
             // 
@@ -322,7 +344,7 @@ namespace ExchangeCompanySoftware.Reports
             this.xrTableCell28.StylePriority.UseTextAlignment = false;
             this.xrTableCell28.Text = "Rate";
             this.xrTableCell28.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
-            this.xrTableCell28.Weight = 0.13673602946549793D;
+            this.xrTableCell28.Weight = 0.10407339824678583D;
             // 
             // xrTableCell9
             // 
@@ -575,23 +597,34 @@ namespace ExchangeCompanySoftware.Reports
             this.GroupHeader3.Level = 2;
             this.GroupHeader3.Name = "GroupHeader3";
             // 
-            // formattingRule1
+            // xrTableCell2
             // 
-            this.formattingRule1.Condition = "[ClDebit] > 0 ";
+            this.xrTableCell2.BackColor = System.Drawing.Color.Gray;
+            this.xrTableCell2.ForeColor = System.Drawing.Color.White;
+            this.xrTableCell2.Name = "xrTableCell2";
+            this.xrTableCell2.StylePriority.UseBackColor = false;
+            this.xrTableCell2.StylePriority.UseBorderColor = false;
+            this.xrTableCell2.StylePriority.UseForeColor = false;
+            this.xrTableCell2.StylePriority.UseTextAlignment = false;
+            this.xrTableCell2.Text = "Qty";
+            this.xrTableCell2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
+            this.xrTableCell2.Weight = 0.10407339824678583D;
             // 
+            // xrTableCell5
             // 
-            // 
-            this.formattingRule1.Formatting.ForeColor = System.Drawing.Color.Blue;
-            this.formattingRule1.Name = "formattingRule1";
-            // 
-            // formattingRule2
-            // 
-            this.formattingRule2.Condition = "[CLCredit] < 0 ";
-            // 
-            // 
-            // 
-            this.formattingRule2.Formatting.ForeColor = System.Drawing.Color.Red;
-            this.formattingRule2.Name = "formattingRule2";
+            this.xrTableCell5.BackColor = System.Drawing.Color.Transparent;
+            this.xrTableCell5.BorderColor = System.Drawing.Color.WhiteSmoke;
+            this.xrTableCell5.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
+            new DevExpress.XtraReports.UI.XRBinding("Text", null, "TrialBalance.Quantity")});
+            this.xrTableCell5.FormattingRules.Add(this.formattingRule1);
+            this.xrTableCell5.FormattingRules.Add(this.formattingRule2);
+            this.xrTableCell5.Name = "xrTableCell5";
+            this.xrTableCell5.StylePriority.UseBackColor = false;
+            this.xrTableCell5.StylePriority.UseBorderColor = false;
+            this.xrTableCell5.StylePriority.UseTextAlignment = false;
+            this.xrTableCell5.Text = "xrTableCell5";
+            this.xrTableCell5.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
+            this.xrTableCell5.Weight = 0.091195451495724084D;
             // 
             // rptTRB
             // 
@@ -679,6 +712,8 @@ namespace ExchangeCompanySoftware.Reports
         private DevExpress.XtraReports.UI.XRTableCell xrTableCell28;
         private DevExpress.XtraReports.UI.FormattingRule formattingRule1;
         private DevExpress.XtraReports.UI.FormattingRule formattingRule2;
+        private DevExpress.XtraReports.UI.XRTableCell xrTableCell5;
+        private DevExpress.XtraReports.UI.XRTableCell xrTableCell2;
         //private ExchangeCompanySoftware.Reports.ReportxsdTableAdapters.LedgerTableAdapter ledgerTableAdapter;
     }
 }
