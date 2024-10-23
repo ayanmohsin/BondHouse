@@ -204,6 +204,26 @@ namespace ExchangeCompanySoftware
             }
         }
 
+
+        public void DmlexecuteBK(string strQuery, string pUserID, string pPassword)
+        {
+            SqlCommand sqlcmd;
+            SqlConnection CN = sqlcn();
+            if (gstrUserId == pUserID && gstrPwd == pPassword)
+            {
+                 
+                    sqlcmd = new SqlCommand();
+                    sqlcmd.Connection = sqlcn();
+                    sqlcmd.CommandText = strQuery;
+                    sqlcmd.CommandTimeout = 600;
+                    sqlcmd.Connection.Open();
+                    sqlcmd.ExecuteNonQuery();
+                    sqlcmd.Connection.Close();
+                    sqlcn().Close();
+                
+            }
+        }
+
         public string GetTransNo(string strTransType, string strBranchCode, DateTime dtSystemDate)
         {
             DataSet ds = new DataSet();

@@ -22,7 +22,9 @@ namespace ExchangeCompanySoftware
             bool bolstate = false;
             string strQuery = " select 'CEX' as TType,VoucherNo from EX_TransactionsMaster ";
             strQuery = strQuery + " Where TransDate = '" + dttoDate.Value.ToString("dd/MMM/yyyy") + "' and BranchCode ='" + General.strBranchCode + "' ";
-            strQuery = strQuery + " and TransType = 2 and Status = 'A';Select 'TT' as TType,Code from EX_TransTT Where TransDate = '" + dttoDate.Value.ToString("dd/MMM/yyyy") + "' and Status = 'A';Select Distinct a.VoucherNo,'JV' TType  from EX_JournalVoucherMaster a Inner Join EX_JournalVoucherDetail b on a.VoucherNo = b.VoucherNo and a.BranchCode = b.BranchCode and a.Status = 'A' Where ItemCode != '304' and Credit > 0 and TransDate = '" + dttoDate.Value.ToString("dd/MMM/yyyy") + "' and a.BranchCode ='" + General.strBranchCode + "' ";
+            strQuery = strQuery + " and TransType = 2 and Status = 'A';Select 'TT' as TType,Code from EX_TransTT Where TransDate = '" + dttoDate.Value.ToString("dd/MMM/yyyy") + "' and Status = 'A'" +
+                ";Select Distinct a.VoucherNo,'JV' TType  from EX_JournalVoucherMaster a Inner Join EX_JournalVoucherDetail b on a.VoucherNo = b.VoucherNo and a.BranchCode = b.BranchCode and a.Status = 'A' Where ItemCode != '304' and Credit > 0 " +
+                "and TransDate = '" + dttoDate.Value.ToString("dd/MMM/yyyy") + "' and a.BranchCode ='" + General.strBranchCode + "' ";
 
                 General cls = new General();
             DataTable dtb = new DataTable();
@@ -190,12 +192,12 @@ namespace ExchangeCompanySoftware
                     label1.Text = "Process Day End";
                     Application.DoEvents();
 
+                    IndexSales();
 
-            
-                    strQuery = "Exec sp_IndexSale " + General.strBranchCode + ",'" + dttoDate.Value.ToString("dd/MMM/yyyy") + "'";
-                    cls.ExecuteDML(strQuery);
-       
-                    strQuery = "Exec SP_DayEnd '" + General.strBranchCode + "','" + dttoDate.Value.ToString("dd/MMM/yyyy") + "','" + General.strUserId + "'";
+                    //strQuery = "Exec sp_IndexSale " + General.strBranchCode + ",'" + dttoDate.Value.ToString("dd/MMM/yyyy") + "'";
+                    //cls.ExecuteDML(strQuery);
+
+                     strQuery = "Exec SP_DayEnd '" + General.strBranchCode + "','" + dttoDate.Value.ToString("dd/MMM/yyyy") + "','" + General.strUserId + "'";
                      cls.ExecuteDML(strQuery);
 
                     MessageBox.Show("Executed Successfully", "Execute",

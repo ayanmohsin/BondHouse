@@ -121,13 +121,34 @@ namespace ExchangeCompanySoftware
             }
         }
 
+
+        public void ExecuteDMLBK(string strQuery)
+        {
+            DataSet ds = new DataSet();
+            DAL bll = null;
+            ExchangeCompanySoftware.GetData.ServiceSoapClient objGetData = null;
+            try
+            {
+                
+                 
+                    bll = new DAL();
+                    bll.DmlexecuteBK(strQuery, General.gUserId, General.gPassword);
+                 
+                 
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
         public string strControlAccount(string strColumnName)
         {
             return General.dtbControlAccount.Rows[0][strColumnName].ToString();
         }
         public bool CheckMorri()
         {
-            string strQuery = " Select Sum(Debit) as Debit,Sum(Credit) as Credit,Round(Sum(case When Flag = 'D' then Debit else -Credit end),0) as Amount ";
+            string strQuery = " Select Sum(Debit) as Debit,Sum(Credit) as Credit,isnull(Round(Sum(case When Flag = 'D' then Debit else -Credit end),0),0) as Amount ";
             strQuery = strQuery + " from EX_PrsTransactions a";
             strQuery = strQuery + " Where a.Status = 'A'   and a.BranchCode = '" + General.strBranchCode + "' and a.TransDate <= '" + General.dtSystemDate.ToString("dd/MMM/yyyy") + "' and AccountNo != ''";
                 General cls = new General();

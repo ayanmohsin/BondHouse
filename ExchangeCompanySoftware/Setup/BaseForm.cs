@@ -208,9 +208,7 @@ namespace ExchangeCompanySoftware
                                                                dtbMaster.Rows[i].Cells["Select"].ReadOnly = true;
                                                                dtbMaster.Rows[i].DefaultCellStyle.Font = new Font(dtbMaster.Font, FontStyle.Regular);
 
-                                                               MessageBox.Show("Authorized Successfully", "Authorize",
-                                                                       MessageBoxButtons.OK, MessageBoxIcon.Information);
-
+                                                             
                                                            }
                                                            else
                                                            {
@@ -220,8 +218,12 @@ namespace ExchangeCompanySoftware
                                                            }
                                                        }
                                                    }
-                                               }
-                                               else
+
+                                            MessageBox.Show("Authorized Successfully", "Authorize",
+                                                              MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                }
+                else
                                                {
                                                    MessageBox.Show("User don't Have Authorization Rights", "Error",
                                                         MessageBoxButtons.OK, MessageBoxIcon.Error);
