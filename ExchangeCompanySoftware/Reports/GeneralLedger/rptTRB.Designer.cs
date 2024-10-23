@@ -311,7 +311,7 @@ namespace ExchangeCompanySoftware.Reports
             // xrTableCell1
             // 
             this.xrTableCell1.Name = "xrTableCell1";
-            this.xrTableCell1.Text = "ACCOUNT";
+            this.xrTableCell1.Text = "ACCOUNT 1";
             this.xrTableCell1.Weight = 0.35514587890830129D;
             // 
             // xrTableCell2
