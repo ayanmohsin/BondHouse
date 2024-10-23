@@ -180,7 +180,7 @@ namespace ExchangeCompanySoftware.Reports
             // 
             this.xrTableCell30.BackColor = System.Drawing.Color.WhiteSmoke;
             this.xrTableCell30.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
-            new DevExpress.XtraReports.UI.XRBinding("Text", null, "TrialBalance.Rate", "{0:n2}")});
+            new DevExpress.XtraReports.UI.XRBinding("Text", null, "TrialBalance.Quantity", "{0:n2}")});
             this.xrTableCell30.Font = new System.Drawing.Font("Tahoma", 9.75F);
             this.xrTableCell30.FormattingRules.Add(this.formattingRule1);
             this.xrTableCell30.FormattingRules.Add(this.formattingRule2);
@@ -342,7 +342,7 @@ namespace ExchangeCompanySoftware.Reports
             this.xrTableCell28.StylePriority.UseBackColor = false;
             this.xrTableCell28.StylePriority.UseForeColor = false;
             this.xrTableCell28.StylePriority.UseTextAlignment = false;
-            this.xrTableCell28.Text = "Rate";
+            this.xrTableCell28.Text = "Qty";
             this.xrTableCell28.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             this.xrTableCell28.Weight = 0.10407339824678583D;
             // 
@@ -606,7 +606,7 @@ namespace ExchangeCompanySoftware.Reports
             this.xrTableCell2.StylePriority.UseBorderColor = false;
             this.xrTableCell2.StylePriority.UseForeColor = false;
             this.xrTableCell2.StylePriority.UseTextAlignment = false;
-            this.xrTableCell2.Text = "Qty";
+            this.xrTableCell2.Text = "Rate";
             this.xrTableCell2.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
             this.xrTableCell2.Weight = 0.10407339824678583D;
             // 
@@ -615,7 +615,7 @@ namespace ExchangeCompanySoftware.Reports
             this.xrTableCell5.BackColor = System.Drawing.Color.Transparent;
             this.xrTableCell5.BorderColor = System.Drawing.Color.WhiteSmoke;
             this.xrTableCell5.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
-            new DevExpress.XtraReports.UI.XRBinding("Text", null, "TrialBalance.Quantity")});
+            new DevExpress.XtraReports.UI.XRBinding("Text", null, "TrialBalance.Rate")});
             this.xrTableCell5.FormattingRules.Add(this.formattingRule1);
             this.xrTableCell5.FormattingRules.Add(this.formattingRule2);
             this.xrTableCell5.Name = "xrTableCell5";
