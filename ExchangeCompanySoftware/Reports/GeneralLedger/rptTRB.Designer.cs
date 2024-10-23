@@ -169,7 +169,7 @@ namespace ExchangeCompanySoftware.Reports
             this.xrTableCell30.StylePriority.UseTextAlignment = false;
             this.xrTableCell30.Text = "xrTableCell30";
             this.xrTableCell30.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
-            this.xrTableCell30.Weight = 0.21462596283896748D;
+            this.xrTableCell30.Weight = 0.11981641184612146D;
             // 
             // xrTableCell16
             // 
@@ -187,7 +187,7 @@ namespace ExchangeCompanySoftware.Reports
             this.xrTableCell16.StylePriority.UseTextAlignment = false;
             this.xrTableCell16.Text = "xrTableCell16";
             this.xrTableCell16.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
-            this.xrTableCell16.Weight = 0.10011343089144831D;
+            this.xrTableCell16.Weight = 0.14288928541698287D;
             // 
             // xrTableCell15
             // 
@@ -205,7 +205,7 @@ namespace ExchangeCompanySoftware.Reports
             this.xrTableCell15.StylePriority.UseTextAlignment = false;
             this.xrTableCell15.Text = "xrTableCell15";
             this.xrTableCell15.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
-            this.xrTableCell15.Weight = 0.10011294706628052D;
+            this.xrTableCell15.Weight = 0.15214664353359197D;
             // 
             // PageHeader
             // 
@@ -265,7 +265,7 @@ namespace ExchangeCompanySoftware.Reports
             this.xrTableCell24.Name = "xrTableCell24";
             this.xrTableCell24.StylePriority.UseBackColor = false;
             this.xrTableCell24.StylePriority.UseForeColor = false;
-            this.xrTableCell24.Weight = 0.24493405749787989D;
+            this.xrTableCell24.Weight = 0.13673595205272165D;
             // 
             // xrTableCell3
             // 
@@ -275,7 +275,7 @@ namespace ExchangeCompanySoftware.Reports
             this.xrTableCell3.StylePriority.UseBackColor = false;
             this.xrTableCell3.StylePriority.UseForeColor = false;
             this.xrTableCell3.Text = "CLOSING";
-            this.xrTableCell3.Weight = 0.22850112624704946D;
+            this.xrTableCell3.Weight = 0.33669923169220772D;
             // 
             // xrTableRow2
             // 
@@ -322,7 +322,7 @@ namespace ExchangeCompanySoftware.Reports
             this.xrTableCell28.StylePriority.UseTextAlignment = false;
             this.xrTableCell28.Text = "Rate";
             this.xrTableCell28.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
-            this.xrTableCell28.Weight = 0.24493385754728103D;
+            this.xrTableCell28.Weight = 0.13673602946549793D;
             // 
             // xrTableCell9
             // 
@@ -334,7 +334,7 @@ namespace ExchangeCompanySoftware.Reports
             this.xrTableCell9.StylePriority.UseTextAlignment = false;
             this.xrTableCell9.Text = "DR";
             this.xrTableCell9.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
-            this.xrTableCell9.Weight = 0.11425073634172454D;
+            this.xrTableCell9.Weight = 0.16306707669238002D;
             // 
             // xrTableCell6
             // 
@@ -346,7 +346,7 @@ namespace ExchangeCompanySoftware.Reports
             this.xrTableCell6.StylePriority.UseTextAlignment = false;
             this.xrTableCell6.Text = "CR";
             this.xrTableCell6.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleCenter;
-            this.xrTableCell6.Weight = 0.11425061233642017D;
+            this.xrTableCell6.Weight = 0.17363210006754778D;
             // 
             // xrLabel33
             // 
@@ -489,7 +489,7 @@ namespace ExchangeCompanySoftware.Reports
             this.xrTableCell20.StylePriority.UseTextAlignment = false;
             this.xrTableCell20.Text = "TOTAL";
             this.xrTableCell20.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
-            this.xrTableCell20.Weight = 0.77987484582488387D;
+            this.xrTableCell20.Weight = 0.67564316984688322D;
             // 
             // xrTableCell25
             // 
@@ -506,7 +506,7 @@ namespace ExchangeCompanySoftware.Reports
             this.xrTableCell25.Summary = xrSummary1;
             this.xrTableCell25.Text = "xrTableCell25";
             this.xrTableCell25.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
-            this.xrTableCell25.Weight = 0.11006671374095006D;
+            this.xrTableCell25.Weight = 0.15708943496562489D;
             // 
             // xrTableCell26
             // 
@@ -523,7 +523,7 @@ namespace ExchangeCompanySoftware.Reports
             this.xrTableCell26.Summary = xrSummary2;
             this.xrTableCell26.Text = "xrTableCell26";
             this.xrTableCell26.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
-            this.xrTableCell26.Weight = 0.11005831436034738D;
+            this.xrTableCell26.Weight = 0.16726726911367326D;
             // 
             // topMarginBand1
             // 
