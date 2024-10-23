@@ -581,7 +581,7 @@ namespace ExchangeCompanySoftware.Reports
             // 
             // 
             // 
-            this.formattingRule1.Formatting.ForeColor = System.Drawing.Color.DeepSkyBlue;
+            this.formattingRule1.Formatting.ForeColor = System.Drawing.Color.Blue;
             this.formattingRule1.Name = "formattingRule1";
             // 
             // formattingRule2
