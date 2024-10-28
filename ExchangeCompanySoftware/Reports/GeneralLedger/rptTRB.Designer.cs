@@ -177,8 +177,9 @@ namespace ExchangeCompanySoftware.Reports
             this.xrTableCell19.AfterPrint += new System.EventHandler(this.xrTableCell19_AfterPrint);
             // 
             // xrTableCell30
-            // 
-            this.xrTableCell30.BackColor = System.Drawing.Color.WhiteSmoke;
+            // n
+            this.xrTableCell30.BackColor = System.Drawing.Color.Transparent;
+            this.xrTableCell30.BorderColor = System.Drawing.Color.DarkGray;
             this.xrTableCell30.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
             new DevExpress.XtraReports.UI.XRBinding("Text", null, "TrialBalance.Quantity", "{0:n2}")});
             this.xrTableCell30.Font = new System.Drawing.Font("Tahoma", 9.75F);
@@ -186,11 +187,12 @@ namespace ExchangeCompanySoftware.Reports
             this.xrTableCell30.FormattingRules.Add(this.formattingRule2);
             this.xrTableCell30.Name = "xrTableCell30";
             this.xrTableCell30.StylePriority.UseBackColor = false;
+            this.xrTableCell30.StylePriority.UseBorderColor = false;
             this.xrTableCell30.StylePriority.UseFont = false;
             this.xrTableCell30.StylePriority.UseTextAlignment = false;
             this.xrTableCell30.Text = "xrTableCell30";
             this.xrTableCell30.TextAlignment = DevExpress.XtraPrinting.TextAlignment.MiddleRight;
-            this.xrTableCell30.Weight = 0.091195451495724084D;
+            this.xrTableCell30.Weight = 0.15214664353359197D;
             // 
             // xrTableCell16
             // 
@@ -613,7 +615,7 @@ namespace ExchangeCompanySoftware.Reports
             // xrTableCell5
             // 
             this.xrTableCell5.BackColor = System.Drawing.Color.Transparent;
-            this.xrTableCell5.BorderColor = System.Drawing.Color.WhiteSmoke;
+            this.xrTableCell5.BorderColor = System.Drawing.Color.DarkGray;
             this.xrTableCell5.DataBindings.AddRange(new DevExpress.XtraReports.UI.XRBinding[] {
             new DevExpress.XtraReports.UI.XRBinding("Text", null, "TrialBalance.Rate")});
             this.xrTableCell5.FormattingRules.Add(this.formattingRule1);
